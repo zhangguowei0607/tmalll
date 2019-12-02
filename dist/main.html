@@ -1,0 +1,3109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>天猫tmall.com--理想生活上天猫</title>
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="iconfont/iconfont.css">
+    <script src="js/jquery-1.7.1.min.js"></script><!-- 轮播 -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script><!-- 楼梯 -->
+    <script src="js/jquery.ScrollPic.min.js"></script><!-- 轮播 -->
+    <script src="js/jquery.SuperSlide.2.1.3.min.js"></script><!-- 轮播 -->
+</head>
+<body>
+    <!-- 头部 -->
+    <header class="container-fluid head">
+        <div class="container">
+            <div class="head_l">
+                <p>喵，欢迎来到天猫</p>
+                <a href="html/login.html">请登录</a>
+                <a href="html/logon.html">免费注册</a>
+            </div>
+            <ul class="head_r">
+                <li>
+                    <a class="list" href="#">
+                        我的淘宝
+                        <div class="head_r_a">
+                            <p>已买到的宝贝</p>
+                            <p>已卖出的宝贝</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="list" href="html/cart.html">购物车</a>
+                </li>
+                <li>
+                    <a class="list" href="#">
+                        收藏夹
+                        <div class="head_r_a">
+                            <p>收藏的宝贝</p>
+                            <p>收藏的店铺</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="list" href="#">
+                        手机版
+                        <div><img src="img/main/7.png"></div>
+                    </a>
+                </li>
+                <li>
+                    <a class="list" href="#">淘宝网</a>
+                </li>
+                <li>
+                    <a class="list" href="#">
+                        商家支持
+                        <div class="head_r_a">
+                            <dl>
+                                <dt>商家:</dt>
+                                <dd>商家中心</dd>
+                                <dd>天猫规则</dd>
+                                <dd>商家入驻</dd>
+                                <dd>运营服务</dd>
+                                <dd>商家品控</dd>
+                                <dd>商家工具</dd>
+                                <dd>天猫智库</dd>
+                                <dd>喵言喵语</dd>
+                            </dl>
+                            <dl>
+                                <dt>帮助:</dt>
+                                <dd>帮助中心</dd>
+                                <dd>问商友</dd>
+                            </dl>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="list" href="#">
+                        网址导航
+                        <ul class="head_r_a">
+                            <li>
+                                <h3>热点推荐&nbsp;Hot</h3>
+                                <span>天猫超市</span>
+                                <span>喵生鲜</span>
+                                <span class="new">科技新品</span>
+                                <span class="hot">女装新品</span>
+                                <span>酷玩街</span>
+                                <span class="hot">内衣新品</span>
+                                <span>试美妆</span>
+                                <span>运动新品</span>
+                                <span class="hot">时尚先生</span>
+                                <span>精明妈咪</span>
+                                <span>吃乐会</span>
+                                <span class="new">企业采购</span>
+                                <span>会员积分</span>
+                                <span>天猫国际</span>
+                                <span>品质频道</span>
+                            </li>
+                            <li>
+                                <h3>行业市场&nbsp;Market</h3>
+                                <span>美妆</span>
+                                <span>电器</span>
+                                <span class="hot">女装</span>
+                                <span class="hot">男装</span>
+                                <span>女鞋</span>
+                                <span>男鞋</span>
+                                <span class="hot">内衣</span>
+                                <span>箱包</span>
+                                <span>运动</span>
+                                <span>母婴</span>
+                                <span>家装</span>
+                                <span>医药</span>
+                                <span>食品</span>
+                                <span class="new">配饰</span>
+                                <span>汽车</span>
+                            </li>
+                            <li>
+                                <h3>指南服务&nbsp;Help</h3>
+                                <span>帮助中心</span>
+                                <span>品质保障</span>
+                                <span>特色服务</span>
+                                <span>7天退换货</span>
+                            </li>
+                        </ul>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- 搜索栏 -->
+    <div class="search container">
+        <div class="btn">
+            <input type="text" placeholder="搜索 天猫 商品/品牌/店铺">
+            <input type="button" value="搜索">
+        </div>
+    </div>
+
+    <!-- 轮播图 -->
+    <div class="banner container-fluid">
+        <div class="header">
+            <div class="menu-bar">
+                <div class="view">
+                    <div class="category">
+                        <h2>商品分类</h2>
+                            <ul class="category-option">
+                                <li class="cat-item top-cat">
+                                    <div class="sub-cat clearfix">
+                                        <div class="sub-cat-links Left">
+                                            <ul class="sub-group clearfix">
+                                                <li class="Left sub-title">
+                                                    <a href="#"><i class="i-t"></i>卧室</a>
+                                                </li>
+                                                <li class="Left sub-content">
+                                                    <a href="#">床</a>
+                                                    <a href="#" style="color:#e62318 !important;">美国进口床垫</a>
+                                                    <a href="#" style="color:#e62318 !important;">美规床</a>
+                                                    <a href="#">床头柜</a>
+                                                    <a href="#">床垫</a>
+                                                    <a href="#">衣柜</a>
+                                                    <a href="#">斗柜</a>
+                                                    <a href="#">妆台镜/妆凳</a>
+                                                    <a href="#">穿衣镜/衣帽架</a>
+                                                    <a href="#">床尾凳</a>
+                                                    <a href="#">卧室套装</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="sub-group clearfix">
+                                                <li class="Left sub-title">
+                                                    <a href="#"><i class="i-t"></i>客厅</a>
+                                                </li>
+                                                <li class="Left sub-content">
+                                                    <a href="#" style="color:#e62318 !important;">沙发</a>
+                                                    <a href="#">茶几/边桌</a>
+                                                    <a href="#">电视柜</a>
+                                                    <a href="#">鞋柜</a>
+                                                    <a href="#">酒柜/装饰柜</a>
+                                                    <a href="#">屏风</a>
+                                                    <a href="#">休闲椅/凳</a>
+                                                    <a href="#">间厅/玄关柜</a>
+                                                    <a href="#">花架/装饰架</a>
+                                                    <a href="#" style="color:#e62318 !important;">客厅套装</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="sub-group clearfix">
+                                                <li class="Left sub-title">
+                                                    <a href="#"><i class="i-t"></i>餐厅</a>
+                                                </li>
+                                                <li class="Left sub-content">
+                                                    <a href="#">餐桌</a>
+                                                    <a href="#">餐椅</a>
+                                                    <a href="#" style="color:#e62318 !important;">餐厅套装</a>
+                                                    <a href="#">餐边柜</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="sub-group clearfix">
+                                                <li class="Left sub-title">
+                                                    <a href="#"><i class="i-t"></i>书房</a>
+                                                </li>
+                                                <li class="Left sub-content">
+                                                    <a href="#" style="color:#e62318 !important;">书桌/书台</a>
+                                                    <a href="#">书柜/书架</a>
+                                                    <a href="#">书椅/转椅</a>
+                                                    <a href="#">书房套装</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="sub-group clearfix">
+                                                <li class="Left sub-title">
+                                                    <a href="#"><i class="i-t"></i>儿童房</a>
+                                                </li>
+                                                <li class="Left sub-content">
+                                                    <a href="#">儿童床</a>
+                                                    <a href="#" style="color:#e62318 !important;">儿童床垫</a>
+                                                    <a href="#">儿童床头柜</a>
+                                                    <a href="#">儿童衣柜</a>
+                                                    <a href="#">儿童桌</a>
+                                                    <a href="#">儿童椅</a>
+                                                    <a href="#">儿童柜类</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="sub-group clearfix">
+                                                <li class="Left sub-title">
+                                                    <a href="#"><i class="i-t"></i>户外/阳台</a>
+                                                </li>
+                                                <li class="Left sub-content">
+                                                    <a href="#">户外椅</a>
+                                                    <a href="#" style="color:#e62318 !important;">户外套装</a>
+                                                    <a href="#">吊篮/吊椅</a>
+                                                    <a href="#">摇椅</a>
+                                                    <a href="#">藤艺家具</a>
+                                                    <a href="#">折叠床</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="sub-group clearfix">
+                                                <li class="Left sub-title">
+                                                    <a href="#"><i class="i-t"></i>办公家具</a>
+                                                </li>
+                                                <li class="Left sub-content last">
+                                                    <a href="#" style="color:#e62318 !important;">办公沙发</a>
+                                                    <a href="#">办公桌</a>
+                                                    <a href="#">文件柜</a>
+                                                    <a href="#">办公椅</a>
+                                                    <a href="#">保险柜</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="sub-cat-brand Left">
+                                            <h6>推荐品牌</h6>
+                                            <div class="tag">
+                                                <a href="#" style="color:#cf000e !important">凯撒豪庭</a>
+                                                <a href="#">北欧悠歌</a>
+                                                <a href="#">白金宫殿</a>
+                                                <a href="#">法兰西玫瑰</a>
+                                                <a href="#">韩菲尔</a>
+                                                <a href="#">卡富亚</a>
+                                                <a href="#" style="color:#cf000e !important">蓝骑家居</a>
+                                                <a href="#">卡洛林</a>
+                                                <a href="#">青春城堡</a>
+                                                <a href="#" style="color:#cf000e !important">宜华</a>
+                                                <a href="#">木木原</a>
+                                                <a href="#">蒂美悦</a>
+                                            </div>
+                                            <a href="#"><img src="img/main/lb-1.jpg" width="190" height="260">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <i class="icon i0"></i>
+                                    <a class="txt" href="#">家具</a>
+                                </li>
+                                <li class="cat-item ">
+                                    <div class="sub-cat clearfix">
+                                        <div class="sub-cat-links Left">
+                                            <ul class="sub-group clearfix">
+                                                <li class="Left sub-title">
+                                                    <a href="#"><i class="i-t"></i>卧室</a>
+                                                </li>
+                                                <li class="Left sub-content">
+                                                    <a href="#" style="color:#cf000e !important">床</a>
+                                                    <a href="#">床垫</a>
+                                                    <a href="#">美规床</a>
+                                                    <a href="#">美国进口床垫</a>
+                                                    <a href="#">床头柜</a>
+                                                    <a href="#">衣柜</a>
+                                                    <a href="#">斗柜</a>
+                                                    <a href="#">妆台镜/妆凳</a>
+                                                    <a href="#">穿衣镜/衣帽架</a>
+                                                    <a href="#">床尾凳</a>
+                                                    <a href="#" style="color:#cf000e !important">卧室套装</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="sub-group clearfix">
+                                                <li class="Left sub-title">
+                                                    <a href="#"><i class="i-t"></i>热门搜索</a>
+                                                </li>
+                                                <li class="Left sub-content last">
+                                                    <a href="#" style="color:#cf000e !important">实木床</a>
+                                                    <a href="#">布艺床</a>
+                                                    <a href="#">乳胶床垫</a>
+                                                    <a href="#">进口床垫</a>
+                                                    <a href="#" style="color:#cf000e !important">简美床</a>
+                                                    <a href="#">欧式床</a>
+                                                    <a href="#">美式床</a>
+                                                    <a href="#">榻榻米床</a>
+                                                    <a href="#">高箱床</a>
+                                                    <a href="#">床板床</a>
+                                                    <a href="#">排骨架床</a>
+                                                    <a href="#">真皮床</a>
+                                                    <a href="#" style="color:#cf000e !important">趟门衣柜</a>
+                                                    <a href="#">拉门衣柜</a>
+                                                    <a href="#">四门衣柜</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="sub-cat-brand Left">
+                                            <h6>推荐品牌</h6>
+                                            <div class="tag">
+                                                <a href="#">韩菲尔</a>
+                                                <a href="#" style="color:#cf000e !important">卡富亚</a>
+                                                <a href="#">北欧悠歌</a>
+                                                <a href="#">慕娅</a>
+                                                <a href="#">艾玛诗</a>
+                                                <a href="#" style="color:#cf000e !important">美宜经典</a>
+                                                <a href="#">彼岸阳光</a>
+                                                <a href="#">苏美尔</a>
+                                                <a href="#">迪诺迪奥</a>
+                                                <a href="#">达美风情</a>
+                                                <a href="#">凤凰天</a>
+                                            </div>
+                                            <a href="#"><img src="img/main/lb-2.jpg" width="190" height="260">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <i class="icon i1"></i>
+                                    <a class="txt" href="#">卧室</a>
+                                    <a class="txt" href="#">床</a>
+                                    <a class="txt" href="#">床垫</a>
+                                    <a class="txt" href="#">衣柜</a>
+                                </li>
+                                <li class="cat-item ">
+                                    <div class="sub-cat clearfix">
+                                        <div class="sub-cat-links Left">
+                                            <ul class="sub-group clearfix">
+                                                <li class="Left sub-title">
+                                                    <a href="#"><i class="i-t"></i>客厅</a>
+                                                </li>
+                                                <li class="Left sub-content">
+                                                    <a href="#" style="color:#cf000e !important">沙发</a>
+                                                    <a href="#">电视柜</a>
+                                                    <a href="#">茶几/边桌</a>
+                                                    <a href="#">酒柜/装饰柜</a>
+                                                    <a href="#">鞋柜</a>
+                                                    <a href="#">休闲椅/凳</a>
+                                                    <a href="#">屏风</a>
+                                                    <a href="#" style="color:#cf000e !important">客厅套装</a>
+                                                    <a href="#">花架/装饰架</a>
+                                                    <a href="#">间厅/玄关柜</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="sub-group clearfix">
+                                                <li class="Left sub-title">
+                                                    <a href="#"><i class="i-t"></i>热门搜索</a>
+                                                </li>
+                                                <li class="Left sub-content last">
+                                                    <a href="#">实木沙发</a>
+                                                    <a href="#">布艺沙发</a>
+                                                    <a href="#" style="color:#cf000e !important">转角沙发</a>
+                                                    <a href="#">欧式沙发</a>
+                                                    <a href="#">真皮沙发</a>
+                                                    <a href="#">中式沙发</a>
+                                                    <a href="#">功能沙发</a>
+                                                    <a href="#">美式沙发</a>
+                                                    <a href="#">沙发床</a>
+                                                    <a href="#" style="color:#cf000e !important">实木茶几</a>
+                                                    <a href="#">欧式电视柜</a>
+                                                    <a href="#">客厅电视柜</a>
+                                                    <a href="#">酒柜装饰柜</a>
+                                                    <a href="#">玄关鞋柜</a>
+                                                    <a href="#">懒人沙发</a>
+                                                    <a href="#" style="color:#cf000e !important">蓝骑沙发</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="sub-cat-brand Left">
+                                            <h6>推荐品牌</h6>
+                                            <div class="tag">
+                                                <a href="#" style="color:#cf000e !important">凯撒豪庭</a>
+                                                <a href="#">白金宫殿</a>
+                                                <a href="#">木木原</a>
+                                                <a href="#" style="color:#cf000e !important">蒂美悦</a>
+                                                <a href="#">纳德威</a>
+                                                <a href="#" style="color:#cf000e !important">蓝骑家居</a>
+                                                <a href="#">卡洛林</a>
+                                                <a href="#" style="color:#cf000e !important">宜华生活</a>
+                                                <a href="#">良品LIFE</a>
+                                                <a href="#">世纪公馆</a>
+                                                <a href="#">法兰西玫瑰</a>
+                                                <a href="#">木言木语</a>
+                                                <a href="#">广岛之恋</a>
+                                                <a href="#">维木维斯</a>
+                                            </div>
+                                            <a href="#"><img src="img/main/lb-3.jpg" width="190" height="260">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <i class="icon i2"></i>
+                                    <a class="txt" href="#">客厅</a>
+                                    <a class="txt" href="#">沙发</a>
+                                    <a class="txt" href="#">电视柜</a>
+                                </li>
+                                <li class="cat-item ">
+                                    <div class="sub-cat clearfix">
+                                        <div class="sub-cat-links Left">
+                                            <ul class="sub-group clearfix">
+                                                <li class="Left sub-title">
+                                                    <a href="#"><i class="i-t"></i>餐厅</a>
+                                                </li>
+                                                <li class="Left sub-content">
+                                                    <a href="#" style="color:#cf000e !important">餐厅套装</a>
+                                                    <a href="#">餐桌</a>
+                                                    <a href="#">餐椅</a>
+                                                    <a href="#">餐边柜</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="sub-group clearfix">
+                                                <li class="Left sub-title">
+                                                    <a href="#"><i class="i-t"></i>热门搜索</a>
+                                                </li>
+                                                <li class="Left sub-content last">
+                                                    <a href="#">餐厅家具</a>
+                                                    <a href="#" style="color:#cf000e !important">折叠餐桌</a>
+                                                    <a href="#">餐桌椅组合</a>
+                                                    <a href="#" style="color:#cf000e !important">蓝骑餐桌椅</a>
+                                                    <a href="#">长餐桌</a>
+                                                    <a href="#">圆餐桌</a>
+                                                    <a href="#">大理石餐桌</a>
+                                                    <a href="#" style="color:#cf000e !important">实木餐桌</a>
+                                                    <a href="#">现代餐桌</a>
+                                                    <a href="#">玻璃餐桌椅</a>
+                                                    <a href="#">地中海餐桌</a>
+                                                    <a href="#">扶手餐椅</a>
+                                                    <a href="#">无扶手餐椅</a>
+                                                    <a href="#">美式餐边柜</a>
+                                                    <a href="#">实木餐边柜</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="sub-cat-brand Left">
+                                            <h6>推荐品牌</h6>
+                                            <div class="tag">
+                                                <a href="#" style="color:#cf000e !important">木木原</a>
+                                                <a href="#">蒂美悦</a>
+                                                <a href="#">普罗旺斯</a>
+                                                <a href="#">广岛之恋</a>
+                                                <a href="#">悦麓</a>
+                                                <a href="#">北欧悠歌</a>
+                                                <a href="#" style="color:#cf000e !important">宜华.华洛思</a>
+                                                <a href="#">卡伦美家</a>
+                                                <a href="#">梦露风情</a>
+                                                <a href="#">卡洛林</a>
+                                                <a href="#">韩木居</a>
+                                            </div>
+                                            <a href="#"><img src="img/main/lb-4.jpg" width="190" height="260">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <i class="icon i3"></i>
+                                    <a class="txt" href="#">餐厅</a>
+                                    <a class="txt" href="#">餐桌</a>
+                                    <a class="txt" href="#">餐椅</a>
+                                </li>
+                                <li class="cat-item ">
+                                    <div class="sub-cat clearfix">
+                                        <div class="sub-cat-links Left">
+                                            <ul class="sub-group clearfix">
+                                                <li class="Left sub-title">
+                                                    <a href="#"><i class="i-t"></i>书房</a>
+                                                </li>
+                                                <li class="Left sub-content">
+                                                    <a href="#" style="color:#cf000e !important">书桌/工作台</a>
+                                                    <a href="#">书柜</a>
+                                                    <a href="#">书椅/转椅</a>
+                                                    <a href="#">书房套装</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="sub-group clearfix">
+                                                <li class="Left sub-title">
+                                                    <a href="#"><i class="i-t"></i>热门搜索</a>
+                                                </li>
+                                                <li class="Left sub-content last">
+                                                    <a href="#">实木书桌</a>
+                                                    <a href="#">中式书桌</a>
+                                                    <a href="#">田园书桌</a>
+                                                    <a href="#">办公桌</a>
+                                                    <a href="#" style="color:#cf000e !important">电脑桌</a>
+                                                    <a href="#">学生书桌</a>
+                                                    <a href="#">简约书桌柜</a>
+                                                    <a href="#">三门书柜</a>
+                                                    <a href="#">四门书柜</a>
+                                                    <a href="#">欧式书柜</a>
+                                                    <a href="#">书柜电脑桌</a>
+                                                    <a href="#">电脑椅</a>
+                                                    <a href="#">办公转椅</a>
+                                                    <a href="#" style="color:#cf000e !important">书橱</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="sub-cat-brand Left">
+                                            <h6>推荐品牌</h6>
+                                            <div class="tag">
+                                                <a href="#">凯撒豪庭</a>
+                                                <a href="#" style="color:#cf000e !important">韩菲尔</a>
+                                                <a href="#">蒂美悦</a>
+                                                <a href="#">木木原</a>
+                                                <a href="#">苏美尔</a>
+                                                <a href="#">简欧•安娜</a>
+                                                <a href="#">达美风情</a>
+                                                <a href="#" style="color:#cf000e !important">慕娅</a>
+                                                <a href="#">宜华生活</a>
+                                                <a href="#">圣欧顿</a>
+                                                <a href="#">槿秀家园</a>
+                                                <a href="#">卡西施</a>
+                                            </div>
+                                            <a href="#"><img src="img/main/lb-5.jpg" width="190" height="260">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <i class="icon i4"></i>
+                                    <a class="txt" href="#">书房</a>
+                                    <a class="txt" href="#">书桌</a>
+                                    <a class="txt" href="#">书柜</a>
+                                </li>
+                                <li class="cat-item ">
+                                    <div class="sub-cat clearfix">
+                                        <div class="sub-cat-links Left">
+                                            <ul class="sub-group clearfix">
+                                                <li class="Left sub-title">
+                                                    <a href="#"><i class="i-t"></i>儿童房</a>
+                                                </li>
+                                                <li class="Left sub-content">
+                                                    <a href="#">儿童床</a>
+                                                    <a href="#" style="color:#cf000e !important">儿童床垫</a>
+                                                    <a href="#">儿童床头柜</a>
+                                                    <a href="#">儿童衣柜</a>
+                                                    <a href="#">儿童桌</a>
+                                                    <a href="#">儿童椅</a>
+                                                    <a href="#">儿童柜类</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="sub-group clearfix">
+                                                <li class="Left sub-title">
+                                                    <a href="#"><i class="i-t"></i>热门搜索</a>
+                                                </li>
+                                                <li class="Left sub-content last">
+                                                    <a href="#">田园儿童床</a>
+                                                    <a href="#" style="color:#cf000e !important">上下床</a>
+                                                    <a href="#">高低床</a>
+                                                    <a href="#">双层床</a>
+                                                    <a href="#">儿童母子床</a>
+                                                    <a href="#">儿童棕垫</a>
+                                                    <a href="#">弹簧床垫</a>
+                                                    <a href="#">乳胶垫</a>
+                                                    <a href="#">拉门衣柜</a>
+                                                    <a href="#">两门衣柜</a>
+                                                    <a href="#" style="color:#cf000e !important">儿童书台</a>
+                                                    <a href="#">学生桌</a>
+                                                    <a href="#">儿童书柜</a>
+                                                    <a href="#">儿童家具</a>
+                                                    <a href="#">儿童座椅</a>
+                                                    <a href="#">童床</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="sub-cat-brand Left">
+                                            <h6>推荐品牌</h6>
+                                            <div class="tag">
+                                                <a href="#">青春城堡</a>
+                                                <a href="#" style="color:#cf000e !important">小童舍</a>
+                                                <a href="#">木彩</a>
+                                                <a href="#">恒逸</a>
+                                                <a href="#" style="color:#cf000e !important">Caladoll卡乐多</a>
+                                                <a href="#">松堡王国</a>
+                                                <a href="#">牧童人生</a>
+                                                <a href="#">艾玛诗</a>
+                                                <a href="#">苏美尔</a>
+                                                <a href="#">槿秀家园</a>
+                                                <a href="#">圣欧顿</a>
+                                            </div>
+                                            <a href="#"><img src="img/main/lb-6.jpg" width="190" height="260">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <i class="icon i5"></i>
+                                    <a class="txt" href="#">儿童房</a>
+                                    <a class="txt" href="#">儿童床</a>
+                                    <a class="txt" href="#">儿童桌</a>
+                                </li>
+                                <li class="cat-item ">
+                                    <div class="sub-cat clearfix">
+                                        <div class="sub-cat-links Left">
+                                            <ul class="sub-group clearfix">
+                                                <li class="Left sub-title">
+                                                    <a href="#"><i class="i-t"></i>户外/办公</a>
+                                                </li>
+                                                <li class="Left sub-content">
+                                                    <a href="#">户外套装</a>
+                                                    <a href="#">户外椅</a>
+                                                    <a href="#" style="color:#cf000e !important">吊篮/吊椅</a>
+                                                    <a href="#">摇椅</a>
+                                                    <a href="#" style="color:#cf000e !important">折叠床</a>
+                                                    <a href="#">藤艺家具</a>
+                                                    <a href="#">办公桌</a>
+                                                    <a href="#">办公椅</a>
+                                                    <a href="#" style="color:#cf000e !important">办公沙发</a>
+                                                    <a href="#">文件柜</a>
+                                                    <a href="#" style="color:#cf000e !important">保险柜</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="sub-group clearfix">
+                                                <li class="Left sub-title">
+                                                    <a href="#"><i class="i-t"></i>热门搜索</a>
+                                                </li>
+                                                <li class="Left sub-content last">
+                                                    <a href="#">靠背椅</a>
+                                                    <a href="#">大班台</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="sub-cat-brand Left">
+                                            <h6>推荐品牌</h6>
+                                            <div class="tag">
+                                                <a href="#" style="color:#cf000e !important">雅克集</a>
+                                                <a href="#">欧凯隆</a>
+                                                <a href="#">蒂美悦</a>
+                                                <a href="#" style="color:#cf000e !important">RESTAR瑞仕达</a>
+                                                <a href="#">浩一</a>
+                                                <a href="#" style="color:#cf000e !important">HAOBIN浩彬</a>
+                                                <a href="#">思家</a>
+                                                <a href="#" style="color:#cf000e !important">艾斐堡</a>
+                                            </div>
+                                            <a href="#"><img src="img/main/lb-7.jpg" width="190" height="260">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <i class="icon i6"></i>
+                                    <a class="txt" href="#">户外/阳台</a>
+                                    <a class="txt" href="#">办公家具</a>
+                                </li>
+                                <li class="cat-item top-cat">
+                                    <div class="sub-cat clearfix">
+                                        <div class="sub-cat-links Left">
+                                            <ul class="sub-group clearfix">
+                                                <li class="Left sub-title">
+                                                    <a href="#"><i class="i-t"></i>灯饰照明</a>
+                                                </li>
+                                                <li class="Left sub-content">
+                                                    <a href="#" style="color:#e62318 !important;">吊灯</a>
+                                                    <a href="#" style="color:#e62318 !important;">吸顶灯</a>
+                                                    <a href="#">落地灯</a>
+                                                    <a href="#">台灯</a>
+                                                    <a href="#">壁灯</a>
+                                                    <a href="#">灯具套装</a>
+                                                    <a href="#">LED灯/光源</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="sub-group clearfix">
+                                                <li class="Left sub-title">
+                                                    <a href="#"><i class="i-t"></i>厨房用品</a>
+                                                </li>
+                                                <li class="Left sub-content">
+                                                    <a href="#" style="color:#e62318 !important;">厨盆/水槽</a>
+                                                    <a href="#">厨房龙头</a>
+                                                    <a href="#">角阀</a>
+                                                    <a href="#">厨房挂件</a>
+                                                    <a href="#">沥水篮</a>
+                                                    <a href="#">其他厨房配件</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="sub-group clearfix">
+                                                <li class="Left sub-title">
+                                                    <a href="#"><i class="i-t"></i>卫浴用品</a>
+                                                </li>
+                                                <li class="Left sub-content">
+                                                    <a href="#">浴缸</a>
+                                                    <a href="#" style="color:#e62318 !important;">浴室柜</a>
+                                                    <a href="#">座便器</a>
+                                                    <a href="#">淋浴房</a>
+                                                    <a href="#">花洒</a>
+                                                    <a href="#">卫浴龙头</a>
+                                                    <a href="#">卫浴挂件</a>
+                                                    <a href="#">地漏</a>
+                                                    <a href="#">洗面盆</a>
+                                                    <a href="#">蹲便器</a>
+                                                    <a href="#">座便器盖板</a>
+                                                    <a href="#">卫浴套装</a>
+                                                    <a href="#">其他卫浴配件</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="sub-group clearfix">
+                                                <li class="Left sub-title">
+                                                    <a href="#"><i class="i-t"></i>家装五金</a>
+                                                </li>
+                                                <li class="Left sub-content">
+                                                    <a href="#" style="color:#e62318 !important;">开关插座 </a>
+                                                    <a href="#">锁具</a>
+                                                    <a href="#">门吸</a>
+                                                    <a href="#">合页</a>
+                                                    <a href="#">拉手</a>
+                                                    <a href="#">配电箱</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="sub-group clearfix">
+                                                <li class="Left sub-title">
+                                                    <a href="#"><i class="i-t"></i>墙地面</a>
+                                                </li>
+                                                <li class="Left sub-content">
+                                                    <a href="#" style="color:#e62318 !important;">地板</a>
+                                                    <a href="#">瓷砖</a>
+                                                    <a href="#">墙纸</a>
+                                                    <a href="#">墙布</a>
+                                                    <a href="#">辅助材料</a>
+                                                    <a href="#">油漆</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="sub-group clearfix">
+                                                <li class="Left sub-title">
+                                                    <a href="#"><i class="i-t"></i>生活电器</a>
+                                                </li>
+                                                <li class="Left sub-content last">
+                                                    <a href="#" style="color:#e62318 !important;">电视</a>
+                                                    <a href="#">冰箱</a>
+                                                    <a href="#">洗衣机</a>
+                                                    <a href="#">空调</a>
+                                                    <a href="#">饮水机</a>
+                                                    <a href="#" style="color:#e62318 !important;">热水器</a>
+                                                    <a href="#">吸油烟机</a>
+                                                    <a href="#">净化器</a>
+                                                    <a href="#" style="color:#e62318 !important;">净水设备</a>
+                                                    <a href="#">吸尘器/除螨仪</a>
+                                                    <a href="#">电饭煲</a>
+                                                    <a href="#">消毒柜/洗碗机</a>
+                                                    <a href="#" style="color:#e62318 !important;">电炖锅</a>
+                                                    <a href="#">电烤箱</a>
+                                                    <a href="#" style="color:#e62318 !important;">微波炉</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="sub-cat-brand Left">
+                                            <h6>推荐品牌</h6>
+                                            <div class="tag">
+                                                <a href="#" style="color:#cf000e !important">赛朵</a>
+                                                <a href="#">凯撒豪庭•灯饰</a>
+                                                <a href="#">灯域</a>
+                                                <a href="#">卫欲无限</a>
+                                                <a href="#" style="color:#cf000e !important">良品light</a>
+                                                <a href="#">欧英仕</a>
+                                                <a href="#" style="color:#cf000e !important">鸥达</a>
+                                                <a href="#">JOMOO九牧</a>
+                                                <a href="#">希朗</a>
+                                                <a href="#">摩普</a>
+                                                <a href="#">西门子</a>
+                                                <a href="#">CN墙纸</a>
+                                            </div>
+                                            <a href="#"><img src="img/main/lb-8.jpg" width="190" height="260">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <i class="icon i7"></i>
+                                    <a class="txt" href="#">建材灯饰</a>
+                                </li>
+                                <li class="cat-item ">
+                                    <div class="sub-cat clearfix">
+                                        <div class="sub-cat-links Left">
+                                            <ul class="sub-group clearfix">
+                                                <li class="Left sub-title">
+                                                    <a href="#"><i class="i-t"></i>灯饰照明</a>
+                                                </li>
+                                                <li class="Left sub-content">
+                                                    <a href="#" style="color:#cf000e !important">吊灯</a>
+                                                    <a href="#">壁灯</a>
+                                                    <a href="#" style="color:#cf000e !important">吸顶灯</a>
+                                                    <a href="#">台灯</a>
+                                                    <a href="#">落地灯</a>
+                                                    <a href="#">LED灯/光源</a>
+                                                    <a href="#">灯具套装</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="sub-group clearfix">
+                                                <li class="Left sub-title">
+                                                    <a href="#"><i class="i-t"></i>热门搜索</a>
+                                                </li>
+                                                <li class="Left sub-content last">
+                                                    <a href="#" style="color:#cf000e !important">客厅灯</a>
+                                                    <a href="#">卧室灯</a>
+                                                    <a href="#">餐厅灯</a>
+                                                    <a href="#">水晶灯</a>
+                                                    <a href="#">节能灯</a>
+                                                    <a href="#">布艺台灯</a>
+                                                    <a href="#">客厅吊灯</a>
+                                                    <a href="#" style="color:#cf000e !important">床头灯</a>
+                                                    <a href="#">玻璃灯</a>
+                                                    <a href="#">亚克力吸顶灯</a>
+                                                    <a href="#">LED吊灯</a>
+                                                    <a href="#">镜前灯</a>
+                                                    <a href="#">客厅落地灯</a>
+                                                    <a href="#">时尚吊灯</a>
+                                                    <a href="#">射灯</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="sub-cat-brand Left">
+                                            <h6>推荐品牌</h6>
+                                            <div class="tag">
+                                                <a href="#" style="color:#cf000e !important">赛朵</a>
+                                                <a href="#">灯域</a>
+                                                <a href="#">杰雷诺</a>
+                                                <a href="#">尊阁</a>
+                                                <a href="#" style="color:#cf000e !important">良品light</a>
+                                                <a href="#">欧英仕</a>
+                                                <a href="#">朵兔</a>
+                                                <a href="#">睿品</a>
+                                                <a href="#" style="color:#cf000e !important">凯撒豪庭•灯饰</a>
+                                                <a href="#" style="color:#cf000e !important">家思绮</a>
+                                            </div>
+                                            <a href="#"><img src="img/main/lb-9.jpg" width="190" height="260">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <i class="icon i8"></i>
+                                    <a class="txt" href="#">灯饰照明</a>
+                                    <a class="txt" href="#">吊灯</a>
+                                    <a class="txt" href="#">吸顶灯</a>
+                                </li>
+                                <li class="cat-item ">
+                                    <div class="sub-cat clearfix">
+                                        <div class="sub-cat-links Left">
+                                            <ul class="sub-group clearfix">
+                                                <li class="Left sub-title">
+                                                    <a href="#"><i class="i-t"></i>卫浴</a>
+                                                </li>
+                                                <li class="Left sub-content">
+                                                    <a href="#" style="color:#cf000e !important">浴室柜</a>
+                                                    <a href="#">浴缸</a>
+                                                    <a href="#">淋浴房</a>
+                                                    <a href="#">花洒</a>
+                                                    <a href="#">座便器</a>
+                                                    <a href="#">卫浴挂件</a>
+                                                    <a href="#" style="color:#cf000e !important">卫浴龙头</a>
+                                                    <a href="#">吊顶</a>
+                                                    <a href="#">地漏</a>
+                                                    <a href="#">洗面盆</a>
+                                                    <a href="#">蹲便器</a>
+                                                    <a href="#">座便器盖板</a>
+                                                    <a href="#">卫浴套装</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="sub-group clearfix">
+                                                <li class="Left sub-title">
+                                                    <a href="#"><i class="i-t"></i>热门搜索</a>
+                                                </li>
+                                                <li class="Left sub-content last">
+                                                    <a href="#">浴室套装</a>
+                                                    <a href="#" style="color:#cf000e !important">欧式浴室柜</a>
+                                                    <a href="#">双人浴缸</a>
+                                                    <a href="#">时尚卫浴</a>
+                                                    <a href="#">淋浴花洒</a>
+                                                    <a href="#">多功能花洒</a>
+                                                    <a href="#">水龙头</a>
+                                                    <a href="#">卫浴洁具</a>
+                                                    <a href="#">风暖浴霸</a>
+                                                    <a href="#">集成吊顶</a>
+                                                    <a href="#">落地浴室柜</a>
+                                                    <a href="#">现代浴室柜</a>
+                                                    <a href="#" style="color:#cf000e !important">虹吸座便器</a>
+                                                    <a href="#">智能座便器</a>
+                                                    <a href="#">卫浴五件套</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="sub-cat-brand Left">
+                                            <h6>推荐品牌</h6>
+                                            <div class="tag">
+                                                <a href="#" style="color:#cf000e !important">JOMOO九牧</a>
+                                                <a href="#">鸥达</a>
+                                                <a href="#">摩普</a>
+                                                <a href="#" style="color:#cf000e !important">东鹏</a>
+                                                <a href="#">百得利</a>
+                                                <a href="#">迪耐</a>
+                                                <a href="#" style="color:#cf000e !important">沐锦</a>
+                                                <a href="#">卫浴无限</a>
+                                                <a href="#">希朗</a>
+                                                <a href="#">吉他</a>
+                                                <a href="#">皇姿</a>
+                                            </div>
+                                            <a href="#"><img src="img/main/lb-10.jpg" width="190" height="260">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <i class="icon i9"></i>
+                                    <a class="txt" href="#">卫浴</a>
+                                    <a class="txt" href="#">浴室柜</a>
+                                    <a class="txt" href="#">座便器</a>
+                                </li>
+                                <li class="cat-item top-cat">
+                                    <div class="sub-cat clearfix">
+                                        <div class="sub-cat-links Left">
+                                            <ul class="sub-group clearfix">
+                                                <li class="Left sub-title">
+                                                    <a href="#"><i class="i-t"></i>床上用品</a>
+                                                </li>
+                                                <li class="Left sub-content">
+                                                    <a href="#">枕芯</a>
+                                                    <a href="#" style="color:#e62318 !important;">床品套件</a>
+                                                    <a href="#">床幔/蚊帐</a>
+                                                    <a href="#" style="color:#e62318 !important;">被芯</a>
+                                                    <a href="#" style="color:#e62318 !important;">毛毯</a>
+                                                    <a href="#">床褥</a>
+                                                    <a href="#">被套</a>
+                                                    <a href="#">床笠</a>
+                                                    <a href="#">枕套</a>
+                                                    <a href="#">凉席</a>
+                                                    <a href="#">婚庆家纺</a>
+                                                    <a href="#">夏凉被</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="sub-group clearfix">
+                                                <li class="Left sub-title">
+                                                    <a href="#"><i class="i-t"></i>居家日用</a>
+                                                </li>
+                                                <li class="Left sub-content">
+                                                    <a href="#">晾晒架</a>
+                                                    <a href="#">收纳柜</a>
+                                                    <a href="#" style="color:#e62318 !important;">置物架</a>
+                                                    <a href="#">纸巾盒</a>
+                                                    <a href="#">简易电脑桌</a>
+                                                    <a href="#">衣架</a>
+                                                    <a href="#">净化除味</a>
+                                                    <a href="#">清洁用品</a>
+                                                    <a href="#">收纳箱/袋</a>
+                                                    <a href="#">洗漱用品</a>
+                                                    <a href="#" style="color:#e62318 !important;">家居收纳</a>
+                                                    <a href="#">挂钩</a>
+                                                    <a href="#">简易衣柜</a>
+                                                    <a href="#">装饰镜/化妆镜</a>
+                                                    <a href="#">垃圾桶</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="sub-group clearfix">
+                                                <li class="Left sub-title">
+                                                    <a href="#"><i class="i-t"></i>布艺织物</a>
+                                                </li>
+                                                <li class="Left sub-content">
+                                                    <a href="#" style="color:#e62318 !important;">窗帘</a>
+                                                    <a href="#">地毯/地垫</a>
+                                                    <a href="#">沙发套/垫</a>
+                                                    <a href="#">毛巾家纺</a>
+                                                    <a href="#">坐垫/靠垫</a>
+                                                    <a href="#">防尘罩</a>
+                                                    <a href="#">轨道/罗马杆</a>
+                                                    <a href="#" style="color:#e62318 !important;">抱枕</a>
+                                                    <a href="#">布艺玩具</a>
+                                                    <a href="#">桌布</a>
+                                                    <a href="#">桌旗</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="sub-group clearfix">
+                                                <li class="Left sub-title">
+                                                    <a href="#"><i class="i-t"></i>家居饰品</a>
+                                                </li>
+                                                <li class="Left sub-content">
+                                                    <a href="#" style="color:#e62318 !important;">装饰画</a>
+                                                    <a href="#" style="color:#e62318 !important;">装饰摆件</a>
+                                                    <a href="#">风水摆件</a>
+                                                    <a href="#">钟</a>
+                                                    <a href="#">电话机</a>
+                                                    <a href="#">仿真花</a>
+                                                    <a href="#">花瓶/花盆</a>
+                                                    <a href="#">红酒架</a>
+                                                    <a href="#">装饰花架</a>
+                                                    <a href="#">烛台/蜡烛</a>
+                                                    <a href="#">烟灰缸</a>
+                                                    <a href="#">首饰盒</a>
+                                                    <a href="#">创意公仔</a>
+                                                    <a href="#">装饰托盘/底盘</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="sub-group clearfix">
+                                                <li class="Left sub-title">
+                                                    <a href="#"><i class="i-t"></i>厨房餐饮</a>
+                                                </li>
+                                                <li class="Left sub-content last">
+                                                    <a href="#" style="color:#e62318 !important;">餐具</a>
+                                                    <a href="#">厨用收纳</a>
+                                                    <a href="#" style="color:#e62318 !important;">茶具/咖啡具</a>
+                                                    <a href="#">果盘/托物盘</a>
+                                                    <a href="#">刀具菜板</a>
+                                                    <a href="#">杯子</a>
+                                                    <a href="#">铲勺</a>
+                                                    <a href="#">酒具</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="sub-cat-brand Left">
+                                            <h6>推荐品牌</h6>
+                                            <div class="tag">
+                                                <a href="#" style="color:#cf000e !important">良品LIFE</a>
+                                                <a href="#">airisi</a>
+                                                <a href="#">墨菲</a>
+                                                <a href="#">雷昊</a>
+                                                <a href="#">雅客集</a>
+                                                <a href="#">梦婉茹</a>
+                                                <a href="#" style="color:#cf000e !important">悦邻家居</a>
+                                                <a href="#">汉克玛雅</a>
+                                                <a href="#" style="color:#cf000e !important">馨视觉</a>
+                                                <a href="#">英伦欧堡</a>
+                                            </div>
+                                            <a href="#"><img src="img/main/lb-11.jpg" width="190" height="260">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <i class="icon i10"></i>
+                                    <a class="txt" href="#">家居家饰</a>
+                                </li>
+                                <li class="cat-item ">
+                                    <div class="sub-cat clearfix">
+                                        <div class="sub-cat-links Left">
+                                            <ul class="sub-group clearfix">
+                                                <li class="Left sub-title">
+                                                    <a href="#"><i class="i-t"></i>床品/家纺</a>
+                                                </li>
+                                                <li class="Left sub-content">
+                                                    <a href="#" style="color:#cf000e !important">被芯</a>
+                                                    <a href="#">枕芯</a>
+                                                    <a href="#" style="color:#cf000e !important">床品套件</a>
+                                                    <a href="#">毛毯</a>
+                                                    <a href="#">婚庆家纺</a>
+                                                    <a href="#">床褥</a>
+                                                    <a href="#">床笠</a>
+                                                    <a href="#">床裙</a>
+                                                    <a href="#">床单</a>
+                                                    <a href="#">被套</a>
+                                                    <a href="#">枕套</a>
+                                                    <a href="#">床幔/蚊帐</a>
+                                                    <a href="#">凉席</a>
+                                                    <a href="#">夏凉被</a>
+                                                    <a href="#" style="color:#cf000e !important">窗帘</a>
+                                                    <a href="#">地毯</a>
+                                                    <a href="#">坐垫/靠垫</a>
+                                                    <a href="#">沙发套/垫</a>
+                                                    <a href="#">抱枕</a>
+                                                    <a href="#">桌布</a>
+                                                    <a href="#">桌旗</a>
+                                                    <a href="#">毛巾家纺</a>
+                                                    <a href="#">防尘罩</a>
+                                                    <a href="#">布艺玩具</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="sub-group clearfix">
+                                                <li class="Left sub-title">
+                                                    <a href="#"><i class="i-t"></i>热门搜索</a>
+                                                </li>
+                                                <li class="Left sub-content last">
+                                                    <a href="#">床品套件</a>
+                                                    <a href="#">纯棉四件套</a>
+                                                    <a href="#" style="color:#cf000e !important">婚庆四件套</a>
+                                                    <a href="#">儿童床品</a>
+                                                    <a href="#">纤维被</a>
+                                                    <a href="#" style="color:#cf000e !important">蚕丝被</a>
+                                                    <a href="#">毛毯</a>
+                                                    <a href="#" style="color:#cf000e !important">乳胶枕</a>
+                                                    <a href="#">记忆枕</a>
+                                                    <a href="#">布艺窗帘</a>
+                                                    <a href="#">欧式窗帘</a>
+                                                    <a href="#">遮光窗帘</a>
+                                                    <a href="#">坐垫</a>
+                                                    <a href="#" style="color:#cf000e !important">家用地毯</a>
+                                                    <a href="#">抱枕</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="sub-cat-brand Left">
+                                            <h6>推荐品牌</h6>
+                                            <div class="tag">
+                                                <a href="#">悦坊佳慧</a>
+                                                <a href="#">悦邻家居</a>
+                                                <a href="#">槿帘坊</a>
+                                                <a href="#">鸣将</a>
+                                                <a href="#" style="color:#cf000e !important">良品LIFE</a>
+                                                <a href="#">睡眠易</a>
+                                                <a href="#">凯黎舍</a>
+                                                <a href="#">风菱家居</a>
+                                                <a href="#">梦巢</a>
+                                                <a href="#" style="color:#cf000e !important">悦邻家居</a>
+                                                <a href="#">三南</a>
+                                            </div>
+                                            <a href="#"><img src="img/main/lb-12.jpg" width="190" height="260">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <i class="icon i11"></i>
+                                    <a class="txt" href="#">床上用品</a>
+                                    <a class="txt" href="#">布艺织物</a>
+                                </li>
+                                <li class="cat-item ">
+                                    <div class="sub-cat clearfix">
+                                        <div class="sub-cat-links Left">
+                                            <ul class="sub-group clearfix">
+                                                <li class="Left sub-title">
+                                                    <a href="#"><i class="i-t"></i>家居用品</a>
+                                                </li>
+                                                <li class="Left sub-content">
+                                                    <a href="#" style="color:#cf000e !important">装饰画</a>
+                                                    <a href="#">仿真花</a>
+                                                    <a href="#">电话机</a>
+                                                    <a href="#">烟灰缸</a>
+                                                    <a href="#">钟</a>
+                                                    <a href="#" style="color:#cf000e !important">装饰摆件</a>
+                                                    <a href="#">装饰托盘/座盘</a>
+                                                    <a href="#">风水摆件</a>
+                                                    <a href="#">创意公仔</a>
+                                                    <a href="#">红酒架</a>
+                                                    <a href="#">首饰盒</a>
+                                                    <a href="#" style="color:#cf000e !important">花瓶/花盆</a>
+                                                    <a href="#">烛台/蜡烛</a>
+                                                    <a href="#">装饰花架</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="sub-group clearfix">
+                                                <li class="Left sub-title">
+                                                    <a href="#"><i class="i-t"></i>热门搜索</a>
+                                                </li>
+                                                <li class="Left sub-content last">
+                                                    <a href="#">创意油画</a>
+                                                    <a href="#" style="color:#cf000e !important">无框画</a>
+                                                    <a href="#">有框画</a>
+                                                    <a href="#">挂画</a>
+                                                    <a href="#">客厅装饰画</a>
+                                                    <a href="#">现代装饰画</a>
+                                                    <a href="#">照片相框</a>
+                                                    <a href="#">工艺摆件</a>
+                                                    <a href="#">家居摆件</a>
+                                                    <a href="#">红酒架</a>
+                                                    <a href="#" style="color:#cf000e !important">仿真花</a>
+                                                    <a href="#">墙贴</a>
+                                                    <a href="#">首饰盒</a>
+                                                    <a href="#">婚庆摆件</a>
+                                                    <a href="#">欧式电话机</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="sub-cat-brand Left">
+                                            <h6>推荐品牌</h6>
+                                            <div class="tag">
+                                                <a href="#" style="color:#cf000e !important">馨视觉</a>
+                                                <a href="#">英伦欧堡</a>
+                                                <a href="#" style="color:#cf000e !important">宝优妮</a>
+                                                <a href="#">饰庭画艺</a>
+                                                <a href="#">SFMOBUL安君美</a>
+                                                <a href="#">健康家</a>
+                                                <a href="#" style="color:#cf000e !important">三南</a>
+                                                <a href="#">墨菲</a>
+                                                <a href="#">利临</a>
+                                            </div>
+                                            <a href="#"><img src="img/main/lb-13.jpg" width="190" height="260">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <i class="icon i12"></i>
+                                    <a class="txt" href="#">家居饰品</a>
+                                    <a class="txt" href="#">居家日用</a>
+                                </li>
+                                <!-- <li class="cat-item ">
+                                    <div class="sub-cat clearfix">
+                                        <div class="sub-cat-links Left">
+                                            <ul class="sub-group clearfix">
+                                                <li class="Left sub-title">
+                                                    <a href="#"><i class="i-t"></i>家居用品</a>
+                                                </li>
+                                                <li class="Left sub-content">
+                                                    <a href="#" style="color:#cf000e !important">装饰画</a>
+                                                    <a href="#">仿真花</a>
+                                                    <a href="#">电话机</a>
+                                                    <a href="#">烟灰缸</a>
+                                                    <a href="#">钟</a>
+                                                    <a href="#" style="color:#cf000e !important">装饰摆件</a>
+                                                    <a href="#">装饰托盘/座盘</a>
+                                                    <a href="#">风水摆件</a>
+                                                    <a href="#">创意公仔</a>
+                                                    <a href="#">红酒架</a>
+                                                    <a href="#">首饰盒</a>
+                                                    <a href="#" style="color:#cf000e !important">花瓶/花盆</a>
+                                                    <a href="#">烛台/蜡烛</a>
+                                                    <a href="#">装饰花架</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="sub-group clearfix">
+                                                <li class="Left sub-title">
+                                                    <a href="#"><i class="i-t"></i>热门搜索</a>
+                                                </li>
+                                                <li class="Left sub-content last">
+                                                    <a href="#">创意油画</a>
+                                                    <a href="#" style="color:#cf000e !important">无框画</a>
+                                                    <a href="#">有框画</a>
+                                                    <a href="#">挂画</a>
+                                                    <a href="#">客厅装饰画</a>
+                                                    <a href="#">现代装饰画</a>
+                                                    <a href="#">照片相框</a>
+                                                    <a href="#">工艺摆件</a>
+                                                    <a href="#">家居摆件</a>
+                                                    <a href="#">红酒架</a>
+                                                    <a href="#" style="color:#cf000e !important">仿真花</a>
+                                                    <a href="#">墙贴</a>
+                                                    <a href="#">首饰盒</a>
+                                                    <a href="#">婚庆摆件</a>
+                                                    <a href="#">欧式电话机</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="sub-cat-brand Left">
+                                            <h6>推荐品牌</h6>
+                                            <div class="tag">
+                                                <a href="#" style="color:#cf000e !important">馨视觉</a>
+                                                <a href="#">英伦欧堡</a>
+                                                <a href="#" style="color:#cf000e !important">宝优妮</a>
+                                                <a href="#">饰庭画艺</a>
+                                                <a href="#">SFMOBUL安君美</a>
+                                                <a href="#">健康家</a>
+                                                <a href="#" style="color:#cf000e !important">三南</a>
+                                                <a href="#">墨菲</a>
+                                                <a href="#">利临</a>
+                                            </div>
+                                            <a href="#"><img src="img/main/lb-13.jpg" width="190" height="260">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <i class="icon i12"></i>
+                                    <a class="txt" href="#">家居饰品</a>
+                                    <a class="txt" href="#">居家日用</a>
+                                </li> -->
+                            </ul>
+                        </div>
+                        <ul class="navigator">
+                            <li class="current">
+                                <a href="#">首页</a>
+                            </li>
+                            <li>
+                                <a href="#">家具城</a>
+                            </li>
+                            <li>
+                                <a href="#">建材城</a>
+                            </li>
+                            <li>
+                                <a href="#">家居家饰</a>
+                            </li>
+                            <li>
+                                <a href="#">团购</a>
+                            </li>
+                            <li>
+                                <a href="#">体验馆</a>
+                            </li>
+                            <li>
+                                <a href="#">阅木</a>
+                            </li>
+                            <li>
+                                <a href="#">晒家</a>
+                            </li>
+                            <li>
+                                <a href="#">图览家居</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--轮播-->
+            <div class="scroll-banner" style="background:#227465">
+                <ul class="scroll-content">
+                    <li class="scroll-item" style="background:#227465;display: block;">
+                        <div class="scroll-index">
+                            <a href="#">
+                                <img class="sc-big fadeInR" src="img/main/banner01.jpg">
+                            </a>
+                            <div class="banner_r">
+                                <a href="#">
+                                    <img src="img/main/banner_r01.png"/>
+                                </a>
+                                <a href="#">
+                                    <img src="img/main/banner_r02.png"/>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="scroll-item" style="background:#eef3f5">
+                        <div class="scroll-index">
+                            <a href="#">
+                                <img class="sc-big fadeInR" src="img/main/banner02.jpg">
+                            </a>
+                            <div class="banner_r">
+                                <a href="#">
+                                    <img src="img/main/banner_r01.png"/>
+                                </a>
+                                <a href="#">
+                                    <img src="img/main/banner_r02.png"/>
+                                </a>
+                            </div>						
+                        </div>
+                    </li>
+                    <li class="scroll-item" style="background:#de3435">
+                        <div class="scroll-index">
+                            <a href="#">
+                                <img class="sc-big fadeInR" src="img/main/banner03.jpg">
+                            </a>
+                            <div class="banner_r">
+                                <a href="#">
+                                    <img src="img/main/banner_r01.png"/>
+                                </a>
+                                <a href="#">
+                                    <img src="img/main/banner_r02.png"/>
+                                </a>
+                            </div>						
+                        </div>
+                    </li>		
+                </ul>
+            <div class="scroll-btn">
+                <span class="current"></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 吸顶 -->
+    <div class="menu container-fluid">
+        <div class="menu_t container">
+            <div class="menu_btn">
+                <input type="text" placeholder="搜索 天猫 商品/品牌/店铺"><button>搜索</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 页面主体内容 -->
+    <div class="reply container-fluid">
+        <div class="main container" id="main">
+            <div class="main_a">
+                <div class="left">
+                    <h3>品牌闪购<b>BRAND SALE</b><i></i></h3>
+                    <div class="imgBox">
+                        <img src="img/main/12.png">
+                        <div class="mark"></div>
+                    </div>
+                </div>
+                <div class="middle">
+                    <h3>聚名品<b>LUXURY CHANNEL</b><span>更多</span></h3>
+                    <div class="imgBox">
+                        <img src="img/main/13.png">
+                        <div class="mark"></div>
+                    </div>
+                </div>
+                <div class="right">
+                    <h3>品牌活动<b>BRAND ACTIVITY</b><span>更多</span></h3>
+                    <div class="imgBox">
+                        <img src="img/main/14.png">
+                        <div class="mark"></div>
+                    </div>
+                </div>
+            </div>
+
+            <ul class="main_b Louti">
+                <li>
+                    <div class="imgBox">
+                        <img src="img/main/b_1.png">
+                    </div>
+                    <div class="mark">
+                        <p>优惠卷￥520</p>
+                        <span>点击进入</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="imgBox">
+                        <img src="img/main/b-2.png">
+                    </div>
+                    <div class="mark">
+                        <p>优惠卷￥520</p>
+                        <span>点击进入</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="imgBox">
+                        <img src="img/main/b-3.png">
+                    </div>
+                    <div class="mark">
+                        <p>优惠卷￥520</p>
+                        <span>点击进入</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="imgBox">
+                        <img src="img/main/b-4.png">
+                    </div>
+                    <div class="mark">
+                        <p>优惠卷￥520</p>
+                        <span>点击进入</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="imgBox">
+                        <img src="img/main/b-5.png">
+                    </div>
+                    <div class="mark">
+                        <p>优惠卷￥520</p>
+                        <span>点击进入</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="imgBox">
+                        <img src="img/main/b-6.png">
+                    </div>
+                    <div class="mark">
+                        <p>优惠卷￥520</p>
+                        <span>点击进入</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="imgBox">
+                        <img src="img/main/b-7.png">
+                    </div>
+                    <div class="mark">
+                        <p>优惠卷￥520</p>
+                        <span>点击进入</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="imgBox">
+                        <img src="img/main/b-8.png">
+                    </div>
+                    <div class="mark">
+                        <p>优惠卷￥520</p>
+                        <span>点击进入</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="imgBox">
+                        <img src="img/main/b-9.png">
+                    </div>
+                    <div class="mark">
+                        <p>优惠卷￥520</p>
+                        <span>点击进入</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="imgBox">
+                        <img src="img/main/b-10.png">
+                    </div>
+                    <div class="mark">
+                        <p>优惠卷￥520</p>
+                        <span>点击进入</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="imgBox">
+                        <img src="img/main/b-11.png">
+                    </div>
+                    <div class="mark">
+                        <p>优惠卷￥520</p>
+                        <span>点击进入</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="imgBox">
+                        <img src="img/main/b-12.png">
+                    </div>
+                    <div class="mark">
+                        <p>优惠卷￥520</p>
+                        <span>点击进入</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="imgBox">
+                        <img src="img/main/b-13.png">
+                    </div>
+                    <div class="mark">
+                        <p>优惠卷￥520</p>
+                        <span>点击进入</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="imgBox">
+                        <img src="img/main/b-14.png">
+                    </div>
+                    <div class="mark">
+                        <p>优惠卷￥520</p>
+                        <span>点击进入</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="imgBox">
+                        <img src="img/main/b-15.png">
+                    </div>
+                    <div class="mark">
+                        <p>优惠卷￥520</p>
+                        <span>点击进入</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="imgBox">
+                        <img src="img/main/b-16.png">
+                    </div>
+                    <div class="mark">
+                        <p>优惠卷￥520</p>
+                        <span>点击进入</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="imgBox">
+                        <img src="img/main/b-17.png">
+                    </div>
+                    <div class="mark">
+                        <p>优惠卷￥520</p>
+                        <span>点击进入</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="imgBox">
+                        <img src="img/main/b-18.png">
+                    </div>
+                    <div class="mark">
+                        <p>优惠卷￥520</p>
+                        <span>点击进入</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="imgBox">
+                        <img src="img/main/b-19.png">
+                    </div>
+                    <div class="mark">
+                        <p>优惠卷￥520</p>
+                        <span>点击进入</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="imgBox">
+                        <img src="img/main/b-20.png">
+                    </div>
+                    <div class="mark">
+                        <p>优惠卷￥520</p>
+                        <span>点击进入</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="imgBox">
+                        <img src="img/main/b-21.png">
+                    </div>
+                    <div class="mark">
+                        <p>优惠卷￥520</p>
+                        <span>点击进入</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="imgBox">
+                        <img src="img/main/b-22.png">
+                    </div>
+                    <div class="mark">
+                        <p>优惠卷￥520</p>
+                        <span>点击进入</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="imgBox">
+                        <img src="img/main/b-23.png">
+                    </div>
+                    <div class="mark">
+                        <p>优惠卷￥520</p>
+                        <span>点击进入</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="imgBox">
+                        <img src="img/main/b-24.png">
+                    </div>
+                    <div class="mark">
+                        <p>优惠卷￥520</p>
+                        <span>点击进入</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="imgBox">
+                        <img src="img/main/b-25.png">
+                    </div>
+                    <div class="mark">
+                        <p>优惠卷￥520</p>
+                        <span>点击进入</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="imgBox">
+                        <img src="img/main/b-26.png">
+                    </div>
+                    <div class="mark">
+                        <p>优惠卷￥520</p>
+                        <span>点击进入</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="imgBox">
+                        <img src="img/main/b-27.png">
+                    </div>
+                    <div class="mark">
+                        <p>优惠卷￥520</p>
+                        <span>点击进入</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="imgBox">
+                        <img src="img/main/b-28.png">
+                    </div>
+                    <div class="mark">
+                        <p>优惠卷￥520</p>
+                        <span>点击进入</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="imgBox">
+                        <img src="img/main/b-29.png">
+                    </div>
+                    <div class="mark">
+                        <p>优惠卷￥520</p>
+                        <span>点击进入</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="imgBox">
+                        <i class="iconfont icon-shuaxin"></i>
+                        <p>换一批</p>
+                    </div>
+                    <div class="mark">
+                        <i class="iconfont icon-shuaxin"></i>
+                        <p>换一批</p>
+                    </div>
+                </li>
+            </ul>
+
+            <!-- 天猫超市 -->
+            <div class="main_c Louti">
+                <h3>天猫超市TMALL.MART</h3>
+                <ul>
+                    <li>
+                        <img src="img/main/15.png">
+                        <div class="mark"></div>
+                    </li>
+                    <li>
+                        <span class="btn_1">今日疯抢</span>
+                        <span class="btn_2">量贩装</span>
+                        <div class="btn_1_img">
+                            <img src="img/main/16.png">
+                        </div>
+                        <div class="btn_2_img">
+                            <img src="img/main/17.png">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/c-1.png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>洁柔Face抽纸卫生纸<br>面巾纸擦手纸古龙水</p>
+                        <h6>￥12.9</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/c-2.png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>卫龙大辣片手撕老式<br>大辣片230g麻辣味素</p>
+                        <h6>￥15.8</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/c-3.png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>日本进口儿童牙刷超<br>细软毛1~3岁婴幼儿宝</p>
+                        <h6>￥12.8</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/c-4.png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>白猫冷水速洁洗衣粉<br>沁新柠檬薄荷香泡味</p>
+                        <h6>￥19.9</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/c-5.png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>智造生活陶瓷水果刀3<br>件套削皮器瓜果刀刮</p>
+                        <h6>￥7.9</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/c-6.png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>鲜亨有机大黄米610g<br>五谷杂粮糯香东北粗</p>
+                        <h6>￥8.8</h6>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- 天猫国际 -->
+            <div class="main_d Louti">
+                <h3>天猫国际TMALL.HK</h3>
+                <dl class="main_d_t">
+                    <dt>
+                        <img src="img/main/c-7.png">
+                        <div class="mark"></div>
+                    </dt>
+                    <dd>
+                        <h4>官方直营优选</h4>
+                        <h5>极致购物感受</h5>
+                        <div class="imgBox">
+                            <img src="img/main/c-11.png">
+                            <div class="mark"></div>
+                        </div>
+                    </dd>
+                    <dd>
+                        <div class="imgBox">
+                            <img src="img/main/c-8.png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>韩国unny纤长卷翘睫毛<br>膏防水防汗不晕染</p>
+                        <h6>￥49</h6>
+                    </dd>
+                    <dd>
+                        <div class="imgBox">
+                            <img src="img/main/c-9.png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>[专属回购链接]直邮<br>日本伊诗露芦荟保湿</p>
+                        <h6>￥98</h6>
+                    </dd>
+                    <dd>
+                        <div class="imgBox">
+                            <img src="img/main/c-10.png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>[香港直邮]港版雅<br>培1段HMO心美力婴</p>
+                        <h6>￥286</h6>
+                    </dd>
+                </dl>
+                <dl class="main_d_b">
+                    <dt>
+                        <img src="img/main/c-12.png">
+                        <div class="mark"></div>
+                    </dt>
+                    <dd>
+                        <div class="imgBox">
+                            <img src="img/main/c-13.png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>Herbacin贺本清小甘<br>菊护手霜 75ml 无香</p>
+                        <h6>￥27</h6>
+                    </dd>
+                    <dd>
+                        <div class="imgBox">
+                            <img src="img/main/c-14.png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>牛尔60植萃晶钻亮妍<br>洁肤霜</p>
+                        <h6>￥68</h6>
+                    </dd>
+                    <dd>
+                        <div class="imgBox">
+                            <img src="img/main/c-15.png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>韩国进口南阳<br>FRENCH富然池咖啡</p>
+                        <h6>￥99</h6>
+                    </dd>
+                    <dd>
+                        <div class="imgBox">
+                            <img src="img/main/c-16.png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>LANVIN/浪凡 经典男<br>女长围巾流苏羊毛防</p>
+                        <h6>￥593</h6>
+                    </dd>
+                </dl>
+            </div>
+            
+            <!-- 美丽人生 -->
+            <div class="main_e Louti">
+                <div class="title">
+                    <img src="img/main/e- (1).png" alt="">
+                </div>
+                <div class="main_e_t">
+                    <h3>
+                        <span></span>
+                        美丽人生
+                        <b>FASHION & BEAUTY</b>
+                    </h3>
+                    <ul>
+                        <li class="active">
+                            <img src="img/main/e- (3).png" alt="">
+                            <div class="mark"></div>
+                        </li>
+                        <li class="a">
+                            <div class="imgBox">
+                                <img src="img/main/e- (4).png">
+                                <div class="mark"></div>
+                            </div>
+                            <p>2019夏季男士大码薄<br>款宽松短裤男吉普盾</p>
+                            <h6>￥88</h6>
+                        </li>
+                        <li class="a">
+                            <div class="imgBox">
+                                <img src="img/main/e- (5).png">
+                                <div class="mark"></div>
+                            </div>
+                            <p>丸美弹力蛋白精华面<br>贴膜紧致提拉补水保</p>
+                            <h6>￥38</h6>
+                        </li>
+                        <li class="a">
+                            <div class="imgBox">
+                                <img src="img/main/e- (6).png">
+                                <div class="mark"></div>
+                            </div>
+                            <p>稻草人钱包男士短款<br>钱夹礼盒高档羊皮商</p>
+                            <h6>￥89</h6>
+                        </li>
+                        <li class="a">
+                            <div class="imgBox">
+                                <img src="img/main/e- (7).png">
+                                <div class="mark"></div>
+                            </div>
+                            <p>妖精的口袋豹纹t恤女<br>装2019夏季新款欧货</p>
+                            <h6>￥119.8</h6>
+                        </li>
+                        <li class="a">
+                            <div class="imgBox">
+                                <img src="img/main/e- (8).png">
+                                <div class="mark"></div>
+                            </div>
+                            <p>Daphne/达芙妮鞋柜<br>春秋休闲学院系带板</p>
+                            <h6>￥49</h6>
+                        </li>
+                        <li class="a">
+                            <div class="imgBox">
+                                <img src="img/main/e- (9).png">
+                                <div class="mark"></div>
+                            </div>
+                            <p>安踏运动鞋男鞋2019<br>新款学生轻便透气休</p>
+                            <h6>￥169</h6>
+                        </li>
+                        <li class="a">
+                            <div class="imgBox">
+                                <img src="img/main/e- (10).png">
+                                <div class="mark"></div>
+                            </div>
+                            <p>回力春季透气布鞋男<br>韩版一脚蹬懒人鞋男</p>
+                            <h6>￥49</h6>
+                        </li>
+                        <li class="a">
+                            <div class="imgBox">
+                                <img src="img/main/e- (11).png">
+                                <div class="mark"></div>
+                            </div>
+                            <p>美肤宝护肤品套装女<br>保湿水补水学生化妆</p>
+                            <h6>￥99</h6>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 潮电酷玩 -->
+            <div class="main_e1 Louti">
+                <div class="main_e1_b">
+                    <h3>
+                        <span></span>
+                        潮电酷玩
+                        <b>ELECTRONICS</b>
+                    </h3>
+                    <ul>
+                        <li class="active">
+                            <img src="img/main/e- (12).png" alt="">
+                            <div class="mark"></div>
+                        </li>
+                        <li class="a">
+                            <div class="imgBox">
+                                <img src="img/main/e- (13).png">
+                                <div class="mark"></div>
+                            </div>
+                            <p>蓝牙耳机5.0无线单耳<br>vivo苹果oppo华为小</p>
+                            <h6>￥7.9</h6>
+                        </li>
+                        <li class="a">
+                            <div class="imgBox">
+                                <img src="img/main/e- (14).png">
+                                <div class="mark"></div>
+                            </div>
+                            <p>Hasee/神舟 战神-6D<br>炫彩游戏鼠标 背光游</p>
+                            <h6>￥300</h6>
+                        </li>
+                        <li class="a">
+                            <div class="imgBox">
+                                <img src="img/main/e- (2).png">
+                                <div class="mark"></div>
+                            </div>
+                            <p>小熊落地式加湿器家<br>用静音卧室孕妇办公</p>
+                            <h6>￥119</h6>
+                        </li>
+                        <li class="a">
+                            <div class="imgBox">
+                                <img src="img/main/e- (15).png">
+                                <div class="mark"></div>
+                            </div>
+                            <p>纽曼EX18蓝牙智能手<br>表 运动计步手环防水</p>
+                            <h6>￥169</h6>
+                        </li>
+                        <li class="a">
+                            <div class="imgBox">
+                                <img src="img/main/e- (16).png">
+                                <div class="mark"></div>
+                            </div>
+                            <p>金河田寒冰120 240 <br> 散热器 电脑台式机</p>
+                            <h6>￥369</h6>
+                        </li>
+                        <li class="a">
+                            <div class="imgBox">
+                                <img src="img/main/e- (17).png">
+                                <div class="mark"></div>
+                            </div>
+                            <p>彩虹 DR60-1 电热暖<br>手器暖手宝 电暖宝 电</p>
+                            <h6>￥89</h6>
+                        </li>
+                        <li class="a">
+                            <div class="imgBox">
+                                <img src="img/main/e- (18).png">
+                                <div class="mark"></div>
+                            </div>
+                            <p>  莱克空气净化器  <br>KJ703-F/KJ706-F甲</p>
+                            <h6>￥299</h6>
+                        </li>
+                        <li class="a">
+                            <div class="imgBox">
+                                <img src="img/main/e- (19).png">
+                                <div class="mark"></div>
+                            </div>
+                            <p>Choseal/秋叶原 音频<br>线二对二莲花线音箱</p>
+                            <h6>￥260</h6>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 居家生活 -->
+            <div class="main_f Louti">
+                <div class="title">
+                    <img src="img/main/f-1.png" alt="">
+                </div>
+                <div class="main_f_t">
+                    <h3>
+                        <span></span>
+                        居家生活
+                        <b>GROCERY & HEALTH</b>
+                    </h3>
+                    <ul>
+                        <li class="active">
+                            <img src="img/main/f-2.png" alt="">
+                            <div class="mark"></div>
+                        </li>
+                        <li class="a">
+                            <div class="imgBox">
+                                <img src="img/main/f-3.png">
+                                <div class="mark"></div>
+                            </div>
+                            <p>洁柔软包抽纸旅行便<br>携式纸面巾28抽3层</p>
+                            <h6>￥26</h6>
+                        </li>
+                        <li class="a">
+                            <div class="imgBox">
+                                <img src="img/main/f-4.png">
+                                <div class="mark"></div>
+                            </div>
+                            <p>巴布豆儿童棉拖鞋秋<br>冬1-3岁男女宝宝可爱</p>
+                            <h6>￥39</h6>
+                        </li>
+                        <li class="a">
+                            <div class="imgBox">
+                                <img src="img/main/f-5.png">
+                                <div class="mark"></div>
+                            </div>
+                            <p>好巴食南溪经典豆干<br>200g单包单独包装麻</p>
+                            <h6>￥9.9</h6>
+                        </li>
+                        <li class="a">
+                            <div class="imgBox">
+                                <img src="img/main/f-6.png">
+                                <div class="mark"></div>
+                            </div>
+                            <p>3盒528）昂立多邦胶<br>囊288粒*3盒 昂立多</p>
+                            <h6>￥558</h6>
+                        </li>
+                        <li class="a">
+                            <div class="imgBox">
+                                <img src="img/main/f-7.png">
+                                <div class="mark"></div>
+                            </div>
+                            <p>蓝泡泡卫生间除味剂<br>除臭清新家用厕所球</p>
+                            <h6>￥4.9</h6>
+                        </li>
+                        <li class="a">
+                            <div class="imgBox">
+                                <img src="img/main/f-8.png">
+                                <div class="mark"></div>
+                            </div>
+                            <p>Face儿童保温杯带吸<br>管两用男女小学生水</p>
+                            <h6>￥139</h6>
+                        </li>
+                        <li class="a">
+                            <div class="imgBox">
+                                <img src="img/main/f-9.png">
+                                <div class="mark"></div>
+                            </div>
+                            <p>思宏新疆和田大红枣<br>500g袋装特产大枣子</p>
+                            <h6>￥10.9</h6>
+                        </li>
+                        <li class="a">
+                            <div class="imgBox">
+                                <img src="img/main/f-10.png">
+                                <div class="mark"></div>
+                            </div>
+                            <p>Super休普 宠物粮食<br>铲 狗粮勺猫眼铲子 狗</p>
+                            <h6>￥8.8</h6>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 打造爱巢 -->
+            <div class="main_f1 Louti">
+                <div class="main_f1_b">
+                    <h3>
+                        <span></span>
+                        打造爱巢
+                        <b>HOME</b>
+                    </h3>
+                    <ul>
+                        <li class="active">
+                            <img src="img/main/f-11.png" alt="">
+                            <div class="mark"></div>
+                        </li>
+                        <li class="a">
+                            <div class="imgBox">
+                                <img src="img/main/f-12.png">
+                                <div class="mark"></div>
+                            </div>
+                            <p>德国汉斯希尔末端直<br>饮机032 015 006</p>
+                            <h6>￥128</h6>
+                        </li>
+                        <li class="a">
+                            <div class="imgBox">
+                                <img src="img/main/f-13.png">
+                                <div class="mark"></div>
+                            </div>
+                            <p>蚕丝被桑蚕丝8斤冬被<br>芯全棉6斤春秋被子4</p>
+                            <h6>￥102.3</h6>
+                        </li>
+                        <li class="a">
+                            <div class="imgBox">
+                                <img src="img/main/f-14.png">
+                                <div class="mark"></div>
+                            </div>
+                            <p>荣事达旅行电热水壶<br>家用户外便携烧水壶</p>
+                            <h6>￥129</h6>
+                        </li>
+                        <li class="a">
+                            <div class="imgBox">
+                                <img src="img/main/f-15.png">
+                                <div class="mark"></div>
+                            </div>
+                            <p>TCL 3218J油烟机装<br>饰罩</p>
+                            <h6>￥159</h6>
+                        </li>
+                        <li class="a">
+                            <div class="imgBox">
+                                <img src="img/main/f-16.png">
+                                <div class="mark"></div>
+                            </div>
+                            <p>小人台二分之一可插<br>针模特架迷你模型女</p>
+                            <h6>￥53.17</h6>
+                        </li>
+                        <li class="a">
+                            <div class="imgBox">
+                                <img src="img/main/f-17.png">
+                                <div class="mark"></div>
+                            </div>
+                            <p>小熊煮蛋器蒸蛋器自<br>动断电家用自动1人煮</p>
+                            <h6>￥59</h6>
+                        </li>
+                        <li class="a">
+                            <div class="imgBox">
+                                <img src="img/main/f-18.png">
+                                <div class="mark"></div>
+                            </div>
+                            <p>苏泊尔TSJ07A原汁机<br>多功能家用慢速榨汁</p>
+                            <h6>￥398</h6>
+                        </li>
+                        <li class="a">
+                            <div class="imgBox">
+                                <img src="img/main/f-19.png">
+                                <div class="mark"></div>
+                            </div>
+                            <p>金正电火锅锅家用多<br>功能分体式电煮锅不</p>
+                            <h6>￥129</h6>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 户外出行 -->
+            <div class="main_g Louti">
+                <div class="title">
+                    <img src="img/main/g- (1).png" alt="">
+                </div>
+                <div class="main_g_t">
+                    <h3>
+                        <span></span>
+                        户外出行
+                        <b>OUTDOORS & AUTOMOTIVE</b>
+                    </h3>
+                    <ul>
+                        <li class="active">
+                            <img src="img/main/g- (2).png" alt="">
+                            <div class="mark"></div>
+                        </li>
+                        <li class="a">
+                            <div class="imgBox">
+                                <img src="img/main/g- (3).png">
+                                <div class="mark"></div>
+                            </div>
+                            <p>Jeep/吉普 秋冬户外<br>两层冲锋衣男运动透</p>
+                            <h6>￥694</h6>
+                        </li>
+                        <li class="a">
+                            <div class="imgBox">
+                                <img src="img/main/g- (4).png">
+                                <div class="mark"></div>
+                            </div>
+                            <p>ONEPOLAR/极地户<br>外摄影包挂包 背包挎</p>
+                            <h6>￥259</h6>
+                        </li>
+                        <li class="a">
+                            <div class="imgBox">
+                                <img src="img/main/g- (5).png">
+                                <div class="mark"></div>
+                            </div>
+                            <p>博冠EM60电动跟踪<br>白色赤道仪不锈钢三</p>
+                            <h6>￥990</h6>
+                        </li>
+                        <li class="a">
+                            <div class="imgBox">
+                                <img src="img/main/g- (6).png">
+                                <div class="mark"></div>
+                            </div>
+                            <p>本汀夏季超薄冰丝T恤<br>短袖速干垂钓服 防晒</p>
+                            <h6>￥45</h6>
+                        </li>
+                        <li class="a">
+                            <div class="imgBox">
+                                <img src="img/main/g- (7).png">
+                                <div class="mark"></div>
+                            </div>
+                            <p>花花公子男鞋春季新<br>款运动鞋休闲鞋板鞋</p>
+                            <h6>￥129/h6>
+                        </li>
+                        <li class="a">
+                            <div class="imgBox">
+                                <img src="img/main/g- (8).png">
+                                <div class="mark"></div>
+                            </div>
+                            <p>CAMEL骆驼男女长裤<br>子秋冬加厚保暖舒适</p>
+                            <h6>￥99</h6>
+                        </li>
+                        <li class="a">
+                            <div class="imgBox">
+                                <img src="img/main/g- (9).png">
+                                <div class="mark"></div>
+                            </div>
+                            <p>伯希和户外抓绒衣男<br>女秋冬套头立领保暖</p>
+                            <h6>￥89</h6>
+                        </li>
+                        <li class="a">
+                            <div class="imgBox">
+                                <img src="img/main/g- (10).png">
+                                <div class="mark"></div>
+                            </div>
+                            <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                            <h6>￥78</h6>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 猜我喜欢 -->
+            <div class="main_h Louti">
+                <div class="title">
+                    <h3>猜你喜欢</h3>
+                </div>
+                <ul>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (1).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>【直降500】<br>Huawei/华为P30</p>
+                        <h6>￥4488.0</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (2).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>Midea/美的 KFR-<br>35GW/WDCN8A3@</p>
+                        <h6>￥2399.0</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (3).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>科沃斯地宝DJ35扫地<br>机器人智能家用全自</p>
+                        <h6>￥1699.0</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (4).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>【三只松鼠_每日坚果<br>750g/30天装】孕妇</p>
+                        <h6>￥148.0</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (5).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>【超级品牌日】雅诗<br>兰黛樱花微精华</p>
+                        <h6>￥860.0</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (6).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>【超级品牌日】雅诗<br>兰黛小棕瓶抗蓝光眼</p>
+                        <h6>￥510.0</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (7).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>亿健精灵ELF跑步机家<br>用款小型折叠式多功</p>
+                        <h6>￥1699.0</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (8).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>小米电视4A65英寸4k<br>超高清液晶屏智能语</p>
+                        <h6>￥2599.0</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (9).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>【年终预售】兰蔻粉<br>水清莹柔肤水400ml</p>
+                        <h6>￥420</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (10).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>LA MER海蓝之谜鎏<br>光焕变气垫粉底液防</p>
+                        <h6>￥1000.0</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (11).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>Haier/海尔<br>EG10014B39GU1 10</p>
+                        <h6>￥2699.0</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (12).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>女装、亲子装AIRism<br>防紫外线网眼连帽运</p>
+                        <h6>￥199.0</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (13).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>【年终预售】兰蔻小<br>黑瓶大眼精华眼霜眼</p>
+                        <h6>￥680.0</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (14).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>【官方正品】纪梵希<br>小羊皮口红女半哑光</p>
+                        <h6>￥345.0</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (15).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>LA MER海蓝之谜修<br>护精华面霜 补水保湿</p>
+                        <h6>￥2550.0</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (16).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>Haier/海尔 BCD-<br>470WDPG 十字对开</p>
+                        <h6>￥4799.0</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (17).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>欧舒丹马鞭草沐浴润<br>肤洗发清洁补水保湿</p>
+                        <h6>￥440.0</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (18).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (19).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (20).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (21).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (22).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (23).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (24).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (25).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (26).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (27).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (28).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (29).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (30).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (31).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (32).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (33).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (34).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (35).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (36).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (37).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (38).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (39).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (40).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (41).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (42).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (43).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (44).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (45).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (46).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (47).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (48).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (49).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (50).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (51).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (52).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (53).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (54).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (55).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (56).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (57).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (58).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (59).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (60).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (61).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (62).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (63).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (64).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (65).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (66).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (67).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (68).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (69).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (70).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (71).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (72).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (73).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (74).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (75).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (76).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (77).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (78).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (79).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (80).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (81).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (82).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (83).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (84).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (85).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (86).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (87).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (88).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (89).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                    <li>
+                        <div class="imgBox">
+                            <img src="img/main/h- (90).png">
+                            <div class="mark"></div>
+                        </div>
+                        <p>乔丹背包运动配件男<br>士休闲包男款户外运动</p>
+                        <h6>￥78</h6>
+                    </li>
+                </ul>
+                <div class="end">
+                    <img src="img/main/21.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 友情链接 -->
+    <div class="list1 container-fluid">
+        <div class="list1_main container">
+            <ul>
+                <li>
+                    <img src="img/main/22.png" alt="">
+                    <b>品质保障</b>
+                    <br>
+                    <p>品质护航 购物无忧</p>
+                </li>
+                <li>
+                    <img src="img/main/23.png" alt="">
+                    <b>七天无理由退换货</b>
+                    <br>
+                    <p>为您提供售后无忧保障</p>
+                </li>
+                <li>
+                    <img src="img/main/24.png" alt="">
+                    <b>特色服务体验</b>
+                    <br>
+                    <p>为您呈现不一样的服务</p>
+                </li>
+                <li>
+                    <img src="img/main/25.png" alt="">
+                    <b>帮助中心</b>
+                    <br>
+                    <p>您的购物指南</p>
+                </li>
+            </ul>
+            <div class="list1_main_b">
+                <dl class="gwzn">
+                    <dt>购物指南</dt>
+                    <dd><a href="#">免费注册</a></dd>
+                    <dd><a href="#">开通支付宝</a></dd>
+                    <dd><a href="#">支付宝充值</a></dd>
+                </dl>
+                <dl class="tmbz">
+                    <dt>天猫保障</dt>
+                    <dd><a href="#">发票保障</a></dd>
+                    <dd><a href="#">售后规则</a></dd>
+                    <dd><a href="#">缺货赔付</a></dd>
+                </dl>
+                <dl class="zffs">
+                    <dt>支付方式</dt>
+                    <dd><a href="#">快捷支付</a></dd>
+                    <dd><a href="#">信用卡</a></dd>
+                    <dd><a href="#">余额宝</a></dd>
+                    <dd><a href="#">蚂蚁花呗</a></dd>
+                    <dd><a href="#">货到付款</a></dd>
+                </dl>
+                <dl class="sjfw">
+                    <dt>商家服务</dt>
+                    <dd><a href="#">天猫规则</a></dd>
+                    <dd><a href="#">商家入驻</a></dd>
+                    <dd><a href="#">商家中心</a></dd>
+                    <dd><a href="#">天猫智库</a></dd>
+                    <dd><a href="#">物流服务</a></dd>
+                    <dd><a href="#">喵言喵语</a></dd>
+                    <dd><a href="#">运营服务</a></dd>
+                </dl>
+                <dl class="sjtm">
+                    <dt>手机天猫</dt>
+                    <dd>
+                        <img src="img/main/26.png" alt="">
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+
+    <!-- 底部 -->
+    <footer class="container-fluid">
+        <div class="foot container">
+            <p class="foot_a">
+                <a href="#">关于天猫</a>
+                <a href="#">帮助中心</a>
+                <a href="#">开放平台</a>
+                <a href="#">诚聘英才</a>
+                <a href="#">联系我们</a>
+                <a href="#">网址合作</a>
+                <a href="#">法律声明</a>
+                <a href="#">隐私权政策</a>
+                <a href="#">知识产权</a>
+                <a href="#">廉正举报</a>
+                <a href="#">规则意见征集</a>
+            </p>
+            <p class="foot_b">
+                <a href="#">阿里巴巴集团</a>
+                <span>|</span>
+                <a href="#">淘宝网</a>
+                <span>|</span>
+                <a href="#">天猫</a>
+                <span>|</span>
+                <a href="#">聚划算</a>
+                <span>|</span>
+                <a href="#">全球速卖通</a>
+                <span>|</span>
+                <a href="#">阿里巴巴国际交易市场</a>
+                <span>|</span>
+                <a href="#">1688</a>
+                <span>|</span>
+                <a href="#">阿里妈妈</a>
+                <span>|</span>
+                <a href="#">飞猪</a>
+                <span>|</span>
+                <a href="#">阿里云计算</a>
+                <span>|</span>
+                <a href="#">AliOS</a>
+                <span>|</span>
+                <a href="#">阿里通信</a>
+                <span>|</span>
+                <a href="#">万网</a>
+                <span>|</span>
+                <a href="#">高德</a>
+                <span>|</span>
+                <a href="#">UC</a>
+                <span>|</span>
+                <a href="#">友盟</a>
+                <span>|</span>
+                <a href="#">虾米</a>
+                <span>|</span>
+                <a href="#">钉钉</a>
+                <span>|</span>
+                <a href="#">支付宝</a>
+            </p>
+            <p class="foot_c">
+                <span>增值电信业务经营许可证： 浙B2-20110446</span>
+                <span>市场名称登记证：工商网市字3301004119号</span>
+                <span>出版物网络交易平台服务经营备案证： 新出发浙备字第001号</span>
+            </p>
+            <p class="foot_d">
+                <span>互联网违法和不良信息举报电话：0571-81683755 blxxjb@alibaba-inc.com</span>
+                <span>互联网药品信息服务资质证书编号：浙-（经营性）-2017-0005</span>
+                <span>浙公网安备 33010002000120号</span>
+            </p>
+            <p class="foot_e">
+                <span>医疗器械网络交易服务第三方平台备案：（浙）网械平台备字[2018]第00002号</span>
+                <span>互联网药品交易服务资格证书：国A20150001</span>
+            </p>
+            <p class="foot_f">
+                <span>浙江省网络食品销售第三方平台提供者备案：浙网食A33010002</span>
+                <a href="#">12318举报</a>
+            </p>
+            <p class="foot_g">© 2003-2019 TMALL.COM 版权所有</p>
+            <div></div>
+        </div>
+    </footer>
+
+    <!-- 楼梯 -->
+    <div id="LoutiNav">
+        <ul>
+            <li>导航 <span>导航</span> </li>
+            <li>天猫超市 <span>天猫超市</span> </li>
+            <li>天猫国际 <span>天猫国际</span> </li>
+            <li>美丽人生 <span>美丽人生</span> </li>
+            <li>潮电酷玩 <span>潮电酷玩</span> </li>
+            <li>居家生活 <span>居家生活</span> </li>
+            <li>打造爱巢 <span>打造爱巢</span> </li>
+            <li>户外出行 <span>户外出行</span> </li>
+            <li>猜我喜欢 <span>猜我喜欢</span> </li>
+            <li class="last"><i class="iconfont icon-xiangshang"></i>顶部</li>
+        </ul>
+    </div>
+
+
+    
+    <script src="js/main.min.js"></script>
+</body>
+</html>
