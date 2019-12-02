@@ -46,13 +46,13 @@ gulp.task('imgL',()=>{
     .pipe(imagemin())
     .pipe(gulp.dest('./dist/img/list'));
 })
-//登录页图片 logon
+//注册页图片 logon
 gulp.task('imgLo',()=>{
     gulp.src('./src/img/logon/*.*')
     .pipe(imagemin())
     .pipe(gulp.dest('./dist/img/logon'));
 })
-//注册页图片 login
+//登录页图片 login
 gulp.task('imgLi',()=>{
     gulp.src('./src/img/login/*.*')
     .pipe(imagemin())

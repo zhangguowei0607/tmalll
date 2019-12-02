@@ -1,0 +1,250 @@
+@import 'public';
+
+// 头部
+header{
+    height: 88px;
+    overflow: hidden;
+    a{
+        display: block;
+        width: 178px;
+        height: 27px;
+        margin-left: 50px;
+        img{
+            width: 178px;
+            height: 27px;
+            margin-top: 30px;
+        }
+    }
+}
+
+// 主体内容
+main{
+    height: 600px;
+    background: #bce3eb;
+    .main{
+        position: relative;
+        .login_bj{
+            height: 600px;
+            margin: 0 50px;
+            cursor: pointer;
+        }
+        .login{
+            width: 350px;
+            height: 404px;
+            background: white;
+            position: absolute;
+            left: 830px;
+            top: 90px;
+            z-index: 10;
+            .login_Ewm{
+                padding: 0 25px;
+                width: 300px;
+                height: 404px;
+                position: absolute;
+                background: url(../img/login/8.png) no-repeat 142px 10px;
+                .login_img{
+                    position: absolute;
+                    left: 293px;
+                    top: 11px;
+                    z-index: 20;
+                    cursor: pointer;
+                    img{
+                        width: 53px;
+                        height: 53px;
+                    }
+                }
+                h4{
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 98px;
+                    margin-bottom: 9px;
+                }
+                img{
+                    width: 90px;
+                    height: 90px;
+                    margin: 0 auto;
+                    margin-bottom: 50px;
+                }
+                span:nth-of-type(1){
+                    margin-left: 80px;
+                    width: 180px;
+                    height: 40px;
+                    padding-left: 42px;
+                    display: block;
+                    margin-bottom: 30px;
+                    background: url(../img/login/6.png) no-repeat 0 10px;
+                    p{
+                        font-size: 12px;
+                        display: inline-block;
+                        line-height: 18px;
+                        color: #9c9c9c;
+                        b{
+                            font-weight: normal;
+                            color: #ff0036;
+                            cursor: pointer;
+                        }
+                    }
+                }
+                span:nth-of-type(2){
+                    margin-left: 170px;
+                    a{
+                        font-size: 12px;
+                        line-height: 12px;
+                        margin-right: 6px;
+                    }
+                }
+            }
+            .login_Act{
+                padding: 0 25px;
+                width: 300px;
+                height: 404px;
+                position: absolute;
+                display: none;background: url(../img/login/9.png) no-repeat 142px 10px;
+                .login_img{
+                    position: absolute;
+                    left: 293px;
+                    top: 11px;
+                    z-index: 20;
+                    cursor: pointer;
+                    img{
+                        width: 53px;
+                        height: 53px;
+                    }
+                }
+                h4{
+                    font-size: 16px;
+                    line-height: 66px;
+                    margin-top: 16px;
+                }
+                .login_btn1{
+                    width: 300px;
+                    height: 42px;
+                    border: 1px solid #cbcbcb;
+                    margin-bottom: 25px;
+                    outline: none;
+                    box-sizing: border-box;
+                    padding: 11px 0 11px 50px;
+                    font-size: 12px;
+                    line-height: 18px;
+                    color: #9b9b9b;
+                    background: url(../img/login/3.png) no-repeat;
+                }
+                .login_btn2{
+                    width: 300px;
+                    height: 42px;
+                    border: 1px solid #cbcbcb;
+                    margin-bottom: 20px;
+                    outline: none;
+                    box-sizing: border-box;
+                    padding: 11px 0 11px 50px;
+                    font-size: 12px;
+                    line-height: 18px;
+                    color: #9b9b9b;
+                    background: url(../img/login/4.png) no-repeat;
+                }
+                button{
+                    width: 300px;
+                    height: 42px;
+                    background: #ff0036;
+                    border-radius: 5px;
+                    font-size: 14px;
+                    line-height: 42px;
+                    text-align: center;
+                    border: none;
+                    outline: none;
+                    cursor: pointer;
+                    color: white;
+                }
+                span{
+                    margin-left: 105px;
+                    a{
+                        font-size: 12px;
+                        line-height: 12px;
+                        line-height: 70px;
+                        margin-right: 6px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 尾部
+footer{
+    height: 238px;
+    background-color: white;
+    .foot{
+        height: 238px;
+        overflow: hidden;
+        .foot_a{
+            padding-left: 50px;
+            margin-top: 36px;
+            a{
+                font-size: 12px;
+                color: black;
+                line-height: 44px;
+            }
+        }
+        .foot_b{
+            padding-left: 50px;
+            a{
+                font-size: 12px;
+                color: black;
+                line-height: 26px; 
+            }
+        }
+        .foot_c{
+            padding-left: 50px;
+            margin-bottom: 3px;
+            span{
+                color: #666666;
+                font-size: 12px;
+                line-height: 30px;
+                margin-right: 65px;
+            }
+        }
+        .foot_d{
+            padding-left: 50px;
+            span{
+                color: #666666;
+                font-size: 12px;
+                line-height: 20px;
+                margin-right: 65px;
+            }
+            span:nth-of-type(3){
+                padding-left: 20px;
+                background: url(../img/login/7.png) no-repeat ;
+            }
+        }
+        .foot_e{
+            padding-left: 50px;
+            span{
+                color: #666666;
+                font-size: 12px;
+                line-height: 20px;
+                margin-right: 65px;
+            }
+        }
+        .foot_f{
+            padding-left: 50px;
+            span{
+                color: #666666;
+                font-size: 12px;
+                line-height: 20px;
+                margin-right: 65px;
+            }
+            a{
+                color: #666666;
+                font-size: 12px;
+                line-height: 24px;
+            }
+        }
+        .foot_g{
+            padding-left: 50px;
+            font-size: 12px;
+            line-height: 20px;
+            color: #999999;
+            margin-bottom: 7px;
+        }
+    }
+}

@@ -132,6 +132,7 @@
                 div{
                     width: 218px;
                     position: absolute;
+                    z-index: 100;
                     left: -65px;
                     top: 30px;
                     box-shadow: 0 0 5px #999999;
@@ -232,6 +233,7 @@
                     border: 1px solid #eeeeee;
                     border-top: none;
                     position: absolute;
+                    z-index: 10000000;
                     left: -1109px;
                     top: 32px;
                     display: none;
@@ -2052,7 +2054,7 @@ footer{
     width: 40px;
     position: fixed;
     bottom: 50px;
-    left: 170px;
+    left: 90px;
     border: 1px solid #ddd;
     display: none;
     ul{
