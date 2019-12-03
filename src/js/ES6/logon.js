@@ -1,3 +1,4 @@
+
 // 用户名
 $('.main_box .main_btn .yhm').focus(function(){
     $('.main_box .main_hint .main_hint_yhm').css({"display" : "block"});
