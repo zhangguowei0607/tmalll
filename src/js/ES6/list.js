@@ -15,3 +15,7 @@ $('.main_b_btn1').click(function(){
     $('.main_b_logo ul').css({"display":"none"});
     $('.main_b_logo ol').css({"display":"block"});
 })
+
+$('.local').click(function(){
+    location.href = 'details.html';
+})

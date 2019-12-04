@@ -38,3 +38,6 @@ $('.main_b_btn1').click(function () {
     "display": "block"
   });
 });
+$('.local').click(function () {
+  location.href = 'details.html';
+});

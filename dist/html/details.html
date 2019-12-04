@@ -7,6 +7,10 @@
     <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
     <title>三围一体2020春季新款 韩版宽松牛仔外套女-tmall.com天猫</title>
     <link rel="stylesheet" href="../css/details.min.css">
+    <link rel="stylesheet" href="../iconfont/iconfont.css">
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/base.min.js"></script>
+    <script src="../js/fdj.min.js"></script>
 </head>
 <body>
     <!-- 头部 -->
@@ -210,9 +214,27 @@
     <div class="zoom container1">
         <div class="zoom_l">
             <div class="zoom_box">
-
+                <div class="right-extra">
+                    <!--产品参数开始-->
+                    <div id="preview" class="spec-preview">
+                        <span class="jqzoom"><img jqimg="../img/details/01-datu.jpg" src="../img/details/01-datu.jpg" /></span>
+                    </div>
+                    <!--缩图开始-->
+                    <div class="spec-scroll">
+                        <div class="items">
+                            <ul>
+                                <li><img alt="天猫" bimg="../img/details/01-datu.jpg" src="../img/details/01-datu.jpg" onmousemove="preview(this);"></li>
+                                <li><img alt="天猫" bimg="../img/details/02-datu.jpg" src="../img/details/02-datu.jpg" onmousemove="preview(this);"></li>
+                                <li><img alt="天猫" bimg="../img/details/03-datu.jpg" src="../img/details/03-datu.jpg" onmousemove="preview(this);"></li>
+                                <li><img alt="天猫" bimg="../img/details/04-datu.jpg" src="../img/details/04-datu.jpg" onmousemove="preview(this);"></li>
+                                <li><img alt="天猫" bimg="../img/details/05-datu.jpg" src="../img/details/05-datu.jpg" onmousemove="preview(this);"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--缩图结束-->
+                </div>
             </div>
-            <p>收藏商品</p>
+            <p class="icon_box"><i class="iconfont icon-shoucang icon" ></i>收藏商品</p>
             <p>举报</p>
         </div>
         <div class="zoom_c">
@@ -225,8 +247,71 @@
             <ul class="zoom_c_address">
                 <li>运费</li>
                 <li>
-                    <p>浙江宁波至&nbsp;&nbsp;<b class="address">忻州&#94;</b>&nbsp;&nbsp;快递: 0.00</p>
+                    <p>浙江宁波至&nbsp;&nbsp;<b class="address">忻州</b>&nbsp;&nbsp;快递: 0.00</p>
                     <p>店铺预售,付款后30天内发货</p>
+                    <div class="address_box">
+                        <div class="address_top">
+                            <p>选择当前定位地址</p>
+                            <button class="address_close">
+                                <img src="../img/details/24.png" alt="">
+                            </button>
+                            <span class="address_choose">忻州</span>
+                        </div>
+                        <div class="address_bottom">
+                            <div class="address_province">山西</div>
+                            <div class="address_city">忻州</div>
+                            <div class="address_provinceS">
+                                <p>北京</p>
+                                <p>河北</p>
+                                <p>天津</p>
+                                <p>山西</p>
+                                <p>内蒙古</p>
+                                <p>辽宁</p>
+                                <p>吉林</p>
+                                <p>黑龙江</p>
+                                <p>上海</p>
+                                <p>江苏</p>
+                                <p>浙江</p>
+                                <p>安徽</p>
+                                <p>福建</p>
+                                <p>江西</p>
+                                <p>山东</p>
+                                <p>河南</p>
+                                <p>湖北</p>
+                                <p>湖南</p>
+                                <p>广东</p>
+                                <p>广西</p>
+                                <p>海南</p>
+                                <p>重庆</p>
+                                <p>云南</p>
+                                <p>贵州</p>
+                                <p>四川</p>
+                                <p>西藏</p>
+                                <p>陕西</p>
+                                <p>甘肃</p>
+                                <p>青海</p>
+                                <p>宁夏</p>
+                                <p>甘肃</p>
+                                <p>台湾</p>
+                                <p>香港</p>
+                                <p>澳门</p>
+                                <p>海外</p>
+                            </div>
+                            <div class="address_cityS">
+                                <p>太原</p>
+                                <p>大同</p>
+                                <p>阳泉</p>
+                                <p>长治</p>
+                                <p>晋城</p>
+                                <p>朔州</p>
+                                <p>晋中</p>
+                                <p>运城</p>
+                                <p>忻州</p>
+                                <p>临汾</p>
+                                <p>吕梁</p>
+                            </div>
+                        </div>
+                    </div>
                 </li>
             </ul>
             <div class="zoom_c_sales">
@@ -249,9 +334,14 @@
                 </dl>
                 <dl class="shuLiang">
                     <dt>数量</dt>
-                    <dd><input type="text" value="1" class="zoom_btn1"></dd>
                     <dd>
+                        <!-- 数量框 -->
+                        <input type="text" value="1" class="zoom_btn1">
+                    </dd>
+                    <dd>
+                        <!-- 上按钮 -->
                         <button class="zoom_btn2"></button>
+                        <!-- 下按钮 -->
                         <button class="zoom_btn3"></button>
                     </dd>
                     <dd>件</dd>
@@ -260,15 +350,15 @@
                     <dt>花呗分期</dt>
                     <dd><a href="../html/login.html">登录</a>后确认是否享有该服务 <b>什么是花呗分期</b></dd>
                     <dd>
-                        <p>￥84.90x3</p>
+                        <p class="huaBei_much1">￥84.90x3</p>
                         <p>(含手续费)</p>
                     </dd>
                     <dd>
-                        <p>￥43.36x6</p>
+                        <p class="huaBei_much2">￥43.36x6</p>
                         <p>(含手续费)</p>
                     </dd>
                     <dd>
-                        <p>￥22.30x12</p>
+                        <p class="huaBei_much3">￥22.30x12</p>
                         <p>(含手续费)</p>
                     </dd>
                 </dl>
@@ -276,16 +366,482 @@
                     <button>立即购买</button>
                     <button>加入购物车</button>
                 </div>
+                <dl class="fuWu">
+                    <dt>服务承诺</dt>
+                    <dd>
+                        <a href="#">正品保障</a>
+                        <a href="#">急速退款</a>
+                        <a href="#">材质保真险</a>
+                    </dd>
+                    <dd class="zoom_btn2">
+                        支付方式
+                        <div class="zoom_btn2_box">
+                            <h4>支付方式</h4>
+                            <span>信用卡</span>
+                            <span>快捷支付</span>
+                            <span>蚂蚁花呗</span>
+                            <span>余额宝</span>
+                        </div>
+                    </dd>
+                    <dd>
+                        <a href="#">七天无理由退换货</a>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <div class="zoom_b">
+            <h4>看了又看</h4>
+            <div class="zoom_b_img">
+                <img src="../img/details/rb1.png" alt="">
+            </div>
+            <div class="zoom_b_img">
+                <img src="../img/details/rb2.png" alt="">
+            </div>
+            <div class="zoom_b_img">
+                <img src="../img/details/rb3.png" alt="">
             </div>
         </div>
         
     </div>
 
-    <main>
+    <!-- 页面主体 -->
+    <main class="container-fluid main">
+        <div class="main container1">
+            <div class="main_left">
+                <div class="main_l_a">
+                    <h4>三围一体旗舰店</h4>
+                    <p>天猫6年电店</p>
+                    <p>描&nbsp述&nbsp;&nbsp;&nbsp;服&nbsp务&nbsp;&nbsp;&nbsp;物&nbsp流</p>
+                    <p>4.9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.8</p>
+                    <span>进店逛逛</span>
+                    <span>收藏店铺</span>
+                </div>
+                <div class="main_l_b">
+                    <h5>本店搜索</h5>
+                    <div class="main_l_b_box">
+                        <span>关键字</span><input type="text">
+                        <span>价格</span><input type="text">&nbsp;-&nbsp;<input type="text">
+                        <button></button>
+                    </div>
+                </div>
+                <div class="main_l_c">
+                    <h5>宝贝分类</h5>
+                    <ul class="main_l_c_box">
+                        <li class="extend main_l_c_li">
+                            <h4>
+                                <img src="../img/details/29.png" alt="" class="extend_imgK extend_imgK1">
+                                <img src="../img/details/30.png" alt="" class="extend_imgG extend_imgG1">
+                                查看左右宝贝
+                            </h4>
+                            <!-- 二级菜单 -->
+                            <ul class="extend_menu extend_menu1">
+                                <li>按综合 按销量 按新品 按价格</li>
+                            </ul>
+                        </li>
+                        <li class="extend main_l_c_li">
+                            <h4>
+                                <img src="../img/details/29.png" alt="" class="extend_imgK extend_imgK2">
+                                <img src="../img/details/30.png" alt="" class="extend_imgG extend_imgG2">
+                                周三上新
+                            </h4>
+                            <!-- 二级菜单 -->
+                            <ul class="extend_menu extend_menu2">
+                                <li>10.16新品</li>
+                                <li>10.09新品</li>
+                                <li>10.02新品</li>
+                                <li>09.25新品</li>
+                                <li>09.18新品</li>
+                                <li>08.28新品</li>
+                                <li>07.24新品</li>
+                                <li>07.17新品</li>
+                                <li>07.10新品</li>
+                                <li>07.02新品</li>
+                            </ul>
+                        </li>
+                        <li class="extend main_l_c_li">
+                            <h4>
+                                <img src="../img/details/29.png" alt="" class="extend_imgK extend_imgK3">
+                                <img src="../img/details/30.png" alt="" class="extend_imgG extend_imgG3">
+                                今日活动
+                            </h4>
+                            <!-- 二级菜单 -->
+                            <ul class="extend_menu extend_menu3">
+                                <li>秋冬2件8折</li>
+                                <li>第二件0元</li>
+                                <li>特价</li>
+                            </ul>
+                        </li>
+                        <li class="extend main_l_c_li">
+                            <h4>
+                                <img src="../img/details/29.png" alt="" class="extend_imgK extend_imgK4">
+                                <img src="../img/details/30.png" alt="" class="extend_imgG extend_imgG4">
+                                外套
+                            </h4>
+                            <!-- 二级菜单 -->
+                            <ul class="extend_menu extend_menu4">
+                                <li>翻领</li>
+                                <li>连帽</li>
+                                <li>羊羔绒</li>
+                                <li>派克服</li>
+                            </ul>
+                        </li>
+                        <li class="main_l_c_li"><h4>卫衣</h4></li>
+                        <li class="extend main_l_c_li">
+                            <h4>
+                                <img src="../img/details/29.png" alt="" class="extend_imgK extend_imgK5">
+                                <img src="../img/details/30.png" alt="" class="extend_imgG extend_imgG5">
+                                衬衫
+                            </h4>
+                            <!-- 二级菜单 -->
+                            <ul class="extend_menu extend_menu5">
+                                <li>格子衬衫</li>
+                                <li>牛仔衬衫</li>
+                                <li>休闲衬衫</li>
+                            </ul>
+                        </li>
+                        <li class="main_l_c_li"><h4>毛衣</h4></li>
+                        <li class="extend main_l_c_li">
+                            <h4>
+                                <img src="../img/details/29.png" alt="" class="extend_imgK extend_imgK6">
+                                <img src="../img/details/30.png" alt="" class="extend_imgG extend_imgG6">
+                                T恤
+                            </h4>
+                            <!-- 二级菜单 -->
+                            <ul class="extend_menu extend_menu6">
+                                <li>条纹T恤</li>
+                                <li>短袖T恤</li>
+                            </ul>
+                        </li>
+                        <li class="extend main_l_c_li">
+                            <h4>
+                                <img src="../img/details/29.png" alt="" class="extend_imgK extend_imgK7">
+                                <img src="../img/details/30.png" alt="" class="extend_imgG extend_imgG7">
+                                裤装
+                            </h4>
+                            <!-- 二级菜单 -->
+                            <ul class="extend_menu extend_menu7">
+                                <li>牛仔裤</li>
+                                <li>休闲裤</li>
+                            </ul>
+                        </li>
+                        <li class="extend main_l_c_li">
+                            <h4>
+                                <img src="../img/details/29.png" alt="" class="extend_imgK extend_imgK8">
+                                <img src="../img/details/30.png" alt="" class="extend_imgG extend_imgG8">
+                                裙装
+                            </h4>
+                            <!-- 二级菜单 -->
+                            <ul class="extend_menu extend_menu8">
+                                <li>连衣裙</li>
+                                <li>半身裙</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="main_l_d">
+                    <h5>宝贝排行榜</h5>
+                    <div class="main_l_d_box">
+                        <span class="main_l_d_boxL">销售量</span>
+                        <span class="main_l_d_boxR">收藏数</span>
+                        <ul>
+                            <li>
+                                <dl>
+                                    <dt>
+                                        <img src="../img/details/31.png" alt="">
+                                    </dt>
+                                    <dd>牛仔衬衫女2019新款</dd>
+                                    <dd>￥139.00</dd>
+                                    <dd>已售出40577笔</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>
+                                        <img src="../img/details/31.png" alt="">
+                                    </dt>
+                                    <dd>牛仔衬衫女2019新款</dd>
+                                    <dd>￥139.00</dd>
+                                    <dd>已售出40577笔</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>
+                                        <img src="../img/details/32.png" alt="">
+                                    </dt>
+                                    <dd>牛仔衬衫女2019新款</dd>
+                                    <dd>￥139.00</dd>
+                                    <dd>已售出40577笔</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>
+                                        <img src="../img/details/32.png" alt="">
+                                    </dt>
+                                    <dd>牛仔衬衫女2019新款</dd>
+                                    <dd>￥139.00</dd>
+                                    <dd>已售出40577笔</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>
+                                        <img src="../img/details/33.png" alt="">
+                                    </dt>
+                                    <dd>牛仔衬衫女2019新款</dd>
+                                    <dd>￥139.00</dd>
+                                    <dd>已售出40577笔</dd>
+                                </dl>
+                            </li>
+                        </ul>
+                        <ol>
+                            <li>
+                                <dl>
+                                    <dt>
+                                        <img src="../img/details/33.png" alt="">
+                                    </dt>
+                                    <dd>牛仔衬衫女2019新款</dd>
+                                    <dd>￥139.00</dd>
+                                    <dd>已售出40577笔</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>
+                                        <img src="../img/details/34.png" alt="">
+                                    </dt>
+                                    <dd>牛仔衬衫女2019新款</dd>
+                                    <dd>￥139.00</dd>
+                                    <dd>已售出40577笔</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>
+                                        <img src="../img/details/34.png" alt="">
+                                    </dt>
+                                    <dd>牛仔衬衫女2019新款</dd>
+                                    <dd>￥139.00</dd>
+                                    <dd>已售出40577笔</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>
+                                        <img src="../img/details/36.png" alt="">
+                                    </dt>
+                                    <dd>牛仔衬衫女2019新款</dd>
+                                    <dd>￥139.00</dd>
+                                    <dd>已售出40577笔</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>
+                                        <img src="../img/details/36.png" alt="">
+                                    </dt>
+                                    <dd>牛仔衬衫女2019新款</dd>
+                                    <dd>￥139.00</dd>
+                                    <dd>已售出40577笔</dd>
+                                </dl>
+                            </li>
+                        </ol>
+                        <div class="main_l_btn">查看更多宝贝</div>
+                    </div>
+                </div>
+            </div>
+            <div class="main_middle">
+                <div class="main_middle_box1">
+                    <div class="main_middle_box1a">
+                        <span class="ceiling_box2L ceiling_active">商品详情</span>
+                        <span class="ceiling_box2R">累计评价</span>
+                        <div class="main_middle_box1b">
+                            手机购买
+                            <div class="main_middle_box1b_img">
+                                <img src="../img/details/12.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
+                <!-- 商品详情 -->
+                <div class="main_spxq" id="spxq">
+                    <div class="main_spxq_box1">
+                        <h4>品牌名称：三围一体</h4>
+                        <h5>产品参数：</h5>
+                        <ul>
+                            <li>
+                                <p>品牌: 三围一体</p>
+                                <p>尺码: S M L</p>
+                                <p>领子: POLO领</p>
+                                <p>袖型: 常规</p>
+                                <p>年份季节: 2020年春季</p>
+                                <p>衣长: 常规</p>
+                                <p>材质成分: 棉100%</p>
+                            </li>
+                            <li>
+                                <p>适用年龄: 25-29周岁</p>
+                                <p>图案: 纯色</p>
+                                <p>衣门襟: 单排扣</p>
+                                <p>组合形式: 单件</p>
+                                <p>袖长: 长袖</p>
+                                <p>服装版型: 直筒</p>
+                            </li>
+                            <li>
+                                <p>材质: 棉</p>
+                                <p>风格: 百搭</p>
+                                <p>颜色分类: 中蓝</p>
+                                <p>货号: S071WD027</p>
+                                <p>厚薄: 常规</p>
+                                <p>销售渠道类型: 纯电商(只在线上销售)</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="main_spxq_box2">
+                        <img src="../img/details/42.png" alt="">
+                    </div>
+                </div>
+
+                <!-- 累计评价 -->
+                <div class="main_ljpj" id="ljpj">
+                    <h4>累计评价</h4>
+                    <div class="main_middle_box1c">
+                        <img src="../img/details/7.png" alt="">
+                    </div>
+                    <div class="main_middle_box1d">喵～该商品还没有人写评价呢</div>
+                </div>
+
+                <!-- 公共部分 -->
+                <div class="main_public">
+                    <h4>试用报告</h4>
+                    <div class="main_public_pic">
+                        <img src="../img/details/b- (1).png" alt="">
+                    </div>
+                    <h5>店铺30天服务情况</h5>
+                    <div class="main_public_box1">
+                        <span>纠纷退款率： 0.0000% 小于 0.0002% （行业均值）</span>
+                        <span>仅退款自主完结时长： 0.76天 大于 0.56天 （行业均值）</span>
+                        <span>退货退款自主完结时长： 3.68天 小于 4.05天 （行业均值）</span>
+                        <span>退款自主完结率： 99.92% 大于 99.84% （行业均值）</span>
+                    </div>
+                    <h6>店铺动态评分：(所属行业：服饰鞋包)</h6>
+                    <div class="main_public_pic1">
+                        <img src="../img/details/a- (3).png" alt="">
+                    </div>
+                    <h3>看了又看</h3>
+                    <ul>
+                        <li>
+                            <img src="../img/details/b- (2).png" alt="">
+                        </li>
+                        <li>
+                            <img src="../img/details/b- (3).png" alt="">
+                        </li>
+                        <li>
+                            <img src="../img/details/b- (4).png" alt="">
+                        </li>
+                        <li>
+                            <img src="../img/details/b- (5).png" alt="">
+                        </li>
+                        <li>
+                            <img src="../img/details/b- (6).png" alt="">
+                        </li>
+                        <li>
+                            <img src="../img/details/b- (7).png" alt="">
+                        </li>
+                        <li>
+                            <img src="../img/details/b- (8).png" alt="">
+                        </li>
+                        <li>
+                            <img src="../img/details/b- (9).png" alt="">
+                        </li>
+                        <li>
+                            <img src="../img/details/b- (10).png" alt="">
+                        </li>
+                        <li>
+                            <img src="../img/details/b- (11).png" alt="">
+                        </li>
+                        <li>
+                            <img src="../img/details/b- (12).png" alt="">
+                        </li>
+                        <li>
+                            <img src="../img/details/b- (13).png" alt="">
+                        </li>
+                    </ul>
+                    <div class="main_public_box2">
+                        <span>安全提示：</span>
+                        <p>请勿随意接收任何来源不明的文件，请勿随意点击任何来源不明的链接。涉及资金往来的事项请务必仔细核对资金往来信息。 天猫不会以订单有问题，让您提供任何银行卡、密码、手机验证码！遇到可疑情况可在钱盾“诈骗举报”中进行举报, <a href="#">安全推荐</a><br>推荐安全软件：<b>钱盾</b><b>UC浏览器</b></p>
+                        <span>内容声明：</span>
+                        <p>天猫为第三方交易平台及互联网信息服务提供者，天猫（含网站、客户端等）所展示的商品/服务的标题、价格、详情等信息内容系由店铺经营者发布，其真实性、准确性和合法性均由店铺经营者负责。天猫提醒用户购买商品/服务前注意谨慎核实。如用户对商品/服务的标题、价格、详情等任何信息有任何疑问的，请在购买前通过阿里旺旺与店铺经营者沟通确认；天猫存在海量店铺，如用户发现店铺内有任何违法/侵权信息，请立即向天猫举报并提供有效线索。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main_right">
+                <h5>本店同类好评商品</h5>
+                <ul>
+                    <li>
+                        <img src="../img/details/rb1.png" alt="">
+                    </li>
+                    <li>
+                        <img src="../img/details/rb2.png" alt="">
+                    </li>
+                    <li>
+                        <img src="../img/details/rb3.png" alt="">
+                    </li>
+                    <li>
+                        <img src="../img/details/rb4.png" alt="">
+                    </li>
+                    <li>
+                        <img src="../img/details/rb5.png" alt="">
+                    </li>
+                    <li>
+                        <img src="../img/details/rb6.png" alt="">
+                    </li>
+                    <li>
+                        <img src="../img/details/rb7.png" alt="">
+                    </li>
+                    <li>
+                        <img src="../img/details/rb8.png" alt="">
+                    </li>
+                    <li>
+                        <img src="../img/details/rb9.png" alt="">
+                    </li>
+                    <li>
+                        <img src="../img/details/rb10.png" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
     </main>
 
-
+    <!-- 吸顶 -->
+    <div class="container-fluid ceiling">
+        <div class="container1 ceiling_box">
+            <div class="ceiling_box1">
+                <p>三围一体旗舰店</p>
+                <div class="ceiling_box1_a">
+                    <p>天猫6年电店</p>
+                    <p>描&nbsp述&nbsp;&nbsp;&nbsp;服&nbsp务&nbsp;&nbsp;&nbsp;物&nbsp流</p>
+                    <p>4.9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.8</p>
+                    <span>进店逛逛</span>
+                    <span>收藏店铺</span>
+                </div>
+            </div>
+            <div class="ceiling_box2">
+                <span class="ceiling_box2L ceiling_active">商品详情</span>
+                <span class="ceiling_box2R">累计评价</span>
+            </div>
+            <div class="ceiling_box3">
+                加入购物车
+            </div>
+            <div class="ceiling_box4">
+                手机购买
+                <div class="ceiling_box4_img">
+                    <img src="../img/details/12.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -437,5 +993,8 @@
         </div>
     </footer>
 
+
+
+    <script src="../js/details.min.js"></script>
 </body>
 </html>

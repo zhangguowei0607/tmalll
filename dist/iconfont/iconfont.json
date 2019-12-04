@@ -18,6 +18,13 @@
       "font_class": "shuaxin",
       "unicode": "e626",
       "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "7335532",
+      "name": "收藏",
+      "font_class": "shoucang",
+      "unicode": "eb2e",
+      "unicode_decimal": 60206
     }
   ]
 }
