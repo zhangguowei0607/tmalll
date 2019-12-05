@@ -120,7 +120,7 @@ $('.zoom_btn1').focus(function () {
   });
 }); // 上按钮
 
-$('.zoom_btn2').click(function () {
+$('.zoom_btn4').click(function () {
   var num = $('.zoom_btn1').val(); // console.log(num);
 
   num++;
@@ -400,4 +400,100 @@ $('.ceiling_box2L').click(function () {
     "display": "block"
   });
   location.href = "#spxq";
-});
+}); // 购物车
+//获取购买按钮 添加点击事件
+
+var oBuy1 = document.querySelector('.zoom_e_cart');
+
+oBuy1.onclick = function () {
+  // let size = $('.chiMa_active').text();
+  // ID
+  var shopId = document.querySelector('.store').innerHTML; // 名称
+
+  var shopName = document.querySelector('.zoom_c_name').innerHTML; // 尺码
+
+  var shopSize = document.querySelector('.chiMa_active').innerHTML; // 颜色
+
+  var shopColor = document.querySelector('.yanSe_active').firstElementChild.alt; // 数量
+
+  var shopNum = document.querySelector('.zoom_btn1').value; // 价格
+
+  var shopPrice = document.querySelector('.zoom_c_priceNew').innerHTML; // 图片
+
+  var shopSrc = document.querySelector('.yanSe_active').firstElementChild.src;
+  console.log(shopId, shopSrc, shopName, shopSize, shopColor, shopPrice, shopNum); //获取localStorage中的信息
+
+  var storage = window.localStorage;
+  var storageStr = storage.getItem('shop') ? storage.getItem('shop') : '';
+  var storageObj = abc(storageStr); //判断点击的商品在localStorage中是否存在，如果存在 num++ 如果不存在 则新建
+
+  if (shopId in storageObj) {
+    storageObj[shopId].num = parseInt(storageObj[shopId].num) + parseInt(shopNum);
+  } else {
+    storageObj[shopId] = {
+      "store": shopId,
+      "src": shopSrc,
+      "color": shopColor,
+      "size": shopSize,
+      "name": shopName,
+      "price": shopPrice,
+      "num": shopNum
+    };
+  } //将数据加入localStorage中
+
+
+  storage.setItem('shop', JSON.stringify(storageObj));
+  alert('商品添加成功！');
+}; //获取购买按钮 添加点击事件
+
+
+var oBuy2 = document.querySelector('.ceiling_box3');
+
+oBuy2.onclick = function () {
+  // let size = $('.chiMa_active').text();
+  // ID
+  var shopId = document.querySelector('.store').innerHTML; // 名称
+
+  var shopName = document.querySelector('.zoom_c_name').innerHTML; // 尺码
+
+  var shopSize = document.querySelector('.chiMa_active').innerHTML; // 颜色
+
+  var shopColor = document.querySelector('.yanSe_active').firstElementChild.alt; // 数量
+
+  var shopNum = document.querySelector('.zoom_btn1').value; // 价格
+
+  var shopPrice = document.querySelector('.zoom_c_priceNew').innerHTML; // 图片
+
+  var shopSrc = document.querySelector('.yanSe_active').firstElementChild.src;
+  console.log(shopId, shopSrc, shopName, shopSize, shopColor, shopPrice, shopNum); //获取localStorage中的信息
+
+  var storage = window.localStorage;
+  var storageStr = storage.getItem('shop') ? storage.getItem('shop') : '';
+  var storageObj = abc(storageStr); //判断点击的商品在localStorage中是否存在，如果存在 num++ 如果不存在 则新建
+
+  if (shopId in storageObj) {
+    storageObj[shopId].num = parseInt(storageObj[shopId].num) + parseInt(shopNum);
+  } else {
+    storageObj[shopId] = {
+      "store": shopId,
+      "src": shopSrc,
+      "color": shopColor,
+      "size": shopSize,
+      "name": shopName,
+      "price": shopPrice,
+      "num": shopNum
+    };
+  } //将数据加入localStorage中
+
+
+  storage.setItem('shop', JSON.stringify(storageObj));
+  alert('商品添加成功！');
+};
+
+function abc(storageStr) {
+  if (!isNaN(storageStr)) {
+    return {};
+  }
+
+  return JSON.parse(storageStr);
+}

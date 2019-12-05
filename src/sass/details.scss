@@ -1,6 +1,5 @@
 @import 'public';
 
-
 // 头部
 .head{
     background: #f2f2f2;
@@ -578,7 +577,7 @@
             color: #666666;
             line-height: 32px;
             padding-left: 8px;
-            color: white;
+            color: black;
         }
         button{
             float: left;
@@ -745,7 +744,6 @@
             
             .spec-scroll .items ul {
                 position: absolute;
-                width: 999999px;
                 height: 64px;
             }
             
@@ -1114,7 +1112,7 @@
                     height: 31px;
                     margin-left: 7px;
                     margin-top: 1px;
-                    .zoom_btn2{
+                    .zoom_btn4{
                         width: 16px;
                         height: 12px;
                         border: none;
